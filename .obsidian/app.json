@@ -1,0 +1,21 @@
+{
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": false,
+  "attachmentFolderPath": "notes/attachments",
+  "userIgnoreFilters": [
+    "_site/",
+    ".jekyll-cache/",
+    "vendor/",
+    "_posts/",
+    "assets/",
+    "_data/",
+    "_plugins/",
+    "_tabs/",
+    "tools/",
+    ".github/",
+    ".devcontainer/",
+    ".vscode/",
+    "notes/_templates/"
+  ]
+}

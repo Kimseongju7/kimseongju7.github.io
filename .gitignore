@@ -30,3 +30,8 @@ assets/js/dist
 *~
 .DS_Store
 Thumbs.db
+
+# Obsidian volatile UI state (keep config, ignore per-session state)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspace.json.bak
