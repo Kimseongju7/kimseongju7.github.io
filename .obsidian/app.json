@@ -3,6 +3,8 @@
   "newLinkFormat": "shortest",
   "useMarkdownLinks": false,
   "attachmentFolderPath": "notes/attachments",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "notes",
   "userIgnoreFilters": [
     "_site/",
     ".jekyll-cache/",
