@@ -1,11 +1,17 @@
 ---
 title: Jekyll·Chirpy
 date: 2026-06-28 22:59:13 +0900
-categories: [학습, 용어]
-tags: [jekyll, chirpy, github-pages, static-site, blog]
-publish: false
+categories:
+  - 학습
+  - 용어
+tags:
+  - jekyll
+  - chirpy
+  - github-pages
+  - static-site
+  - blog
+publish: true
 ---
-
 ## 한 줄 정의
 Jekyll은 마크다운 글을 정적 웹사이트(HTML)로 변환해 주는 정적 사이트 생성기이고, Chirpy는 그 Jekyll 위에서 동작하는 블로그용 테마다.
 
