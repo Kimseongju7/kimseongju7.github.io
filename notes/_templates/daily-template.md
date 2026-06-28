@@ -3,7 +3,7 @@ title: "{{date}} 일지"
 date: {{date}}
 categories: [일지]
 tags: [daily]
-publish: false
+publish: true
 ---
 ## 요약
 
