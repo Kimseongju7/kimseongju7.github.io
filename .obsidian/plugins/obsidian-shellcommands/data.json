@@ -4,7 +4,7 @@
   "obsidian_command_palette_prefix": "Execute: ",
   "preview_variables_in_command_palette": true,
   "show_autocomplete_menu": true,
-  "working_directory": "/Users/castleown/projects/kimseongju7.github.io",
+  "working_directory": "/Users/castleown/Library/Mobile Documents/iCloud~md~obsidian/Documents/kimseongju7.github.io",
   "default_shells": {},
   "environment_variable_path_augmentations": {
     "darwin": "/opt/homebrew/bin"
