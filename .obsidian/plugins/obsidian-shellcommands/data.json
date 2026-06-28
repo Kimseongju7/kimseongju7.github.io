@@ -172,10 +172,10 @@
     {
       "id": "scmd-publish",
       "platform_specific_commands": {
-        "default": "/opt/homebrew/bin/claude -p \"/publish {{!file_path:absolute}}\" --allowedTools \"Read,Edit,Write,Bash,WebSearch,WebFetch\""
+        "default": "/opt/homebrew/bin/claude -p \"/publish\" --allowedTools \"Read,Edit,Write,Glob,Grep,Bash,WebSearch,WebFetch\""
       },
       "shells": {},
-      "alias": "블로그 ⑤ 발행하기 (사이트 게시)",
+      "alias": "블로그 ⑤ 발행하기 (publish:true 전체)",
       "icon": "lucide-upload-cloud",
       "confirm_execution": true,
       "ignore_error_codes": [],
