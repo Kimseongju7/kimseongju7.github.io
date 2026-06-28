@@ -1,7 +1,7 @@
 {
   "settings_version": "0.23.0",
   "debug": false,
-  "obsidian_command_palette_prefix": "",
+  "obsidian_command_palette_prefix": "Execute: ",
   "preview_variables_in_command_palette": true,
   "show_autocomplete_menu": true,
   "working_directory": "/Users/castleown/Library/Mobile Documents/iCloud~md~obsidian/Documents/kimseongju7.github.io",
@@ -31,27 +31,16 @@
         "default": "/opt/homebrew/bin/claude -p \"/today\" --allowedTools \"Read,Write,Bash\""
       },
       "shells": {},
-      "alias": "블로그 ① 오늘 일지 만들기",
+      "alias": "📅 오늘 일지 만들기 (today)",
       "icon": "calendar-plus",
       "confirm_execution": false,
       "ignore_error_codes": [],
-      "input_contents": {
-        "stdin": null
-      },
+      "input_contents": { "stdin": null },
       "output_handlers": {
-        "stdout": {
-          "handler": "notification",
-          "convert_ansi_code": true
-        },
-        "stderr": {
-          "handler": "notification",
-          "convert_ansi_code": true
-        }
+        "stdout": { "handler": "notification", "convert_ansi_code": true },
+        "stderr": { "handler": "notification", "convert_ansi_code": true }
       },
-      "output_wrappers": {
-        "stdout": null,
-        "stderr": null
-      },
+      "output_wrappers": { "stdout": null, "stderr": null },
       "output_channel_order": "stdout-first",
       "output_handling_mode": "buffered",
       "execution_notification_mode": null,
@@ -67,27 +56,16 @@
         "default": "/opt/homebrew/bin/claude -p \"/format-entry {{!file_path:absolute}}\" --allowedTools \"Read,Edit,Bash\""
       },
       "shells": {},
-      "alias": "블로그 ② 글 정리하기 (포맷)",
-      "icon": "lucide-wand-2",
+      "alias": "✨ 글 포맷 정리 (format-entry)",
+      "icon": "wand",
       "confirm_execution": false,
       "ignore_error_codes": [],
-      "input_contents": {
-        "stdin": null
-      },
+      "input_contents": { "stdin": null },
       "output_handlers": {
-        "stdout": {
-          "handler": "notification",
-          "convert_ansi_code": true
-        },
-        "stderr": {
-          "handler": "notification",
-          "convert_ansi_code": true
-        }
+        "stdout": { "handler": "notification", "convert_ansi_code": true },
+        "stderr": { "handler": "notification", "convert_ansi_code": true }
       },
-      "output_wrappers": {
-        "stdout": null,
-        "stderr": null
-      },
+      "output_wrappers": { "stdout": null, "stderr": null },
       "output_channel_order": "stdout-first",
       "output_handling_mode": "buffered",
       "execution_notification_mode": null,
@@ -103,27 +81,16 @@
         "default": "/opt/homebrew/bin/claude -p \"/auto-link {{!file_path:absolute}}\" --allowedTools \"Read,Edit,Glob,Grep,Bash\""
       },
       "shells": {},
-      "alias": "블로그 ③ 노트 연결하기 (링크)",
+      "alias": "🔗 자동 링크/그래프 (auto-link)",
       "icon": "link",
       "confirm_execution": false,
       "ignore_error_codes": [],
-      "input_contents": {
-        "stdin": null
-      },
+      "input_contents": { "stdin": null },
       "output_handlers": {
-        "stdout": {
-          "handler": "notification",
-          "convert_ansi_code": true
-        },
-        "stderr": {
-          "handler": "notification",
-          "convert_ansi_code": true
-        }
+        "stdout": { "handler": "notification", "convert_ansi_code": true },
+        "stderr": { "handler": "notification", "convert_ansi_code": true }
       },
-      "output_wrappers": {
-        "stdout": null,
-        "stderr": null
-      },
+      "output_wrappers": { "stdout": null, "stderr": null },
       "output_channel_order": "stdout-first",
       "output_handling_mode": "buffered",
       "execution_notification_mode": null,
@@ -139,27 +106,16 @@
         "default": "/opt/homebrew/bin/claude -p \"/organize-categories {{!vault_path}}\" --allowedTools \"Read,Edit,Glob,Grep,Bash\""
       },
       "shells": {},
-      "alias": "블로그 ④ 카테고리 정리하기",
+      "alias": "🗂️ 카테고리 정리 (organize-categories)",
       "icon": "tags",
       "confirm_execution": false,
       "ignore_error_codes": [],
-      "input_contents": {
-        "stdin": null
-      },
+      "input_contents": { "stdin": null },
       "output_handlers": {
-        "stdout": {
-          "handler": "notification",
-          "convert_ansi_code": true
-        },
-        "stderr": {
-          "handler": "notification",
-          "convert_ansi_code": true
-        }
+        "stdout": { "handler": "notification", "convert_ansi_code": true },
+        "stderr": { "handler": "notification", "convert_ansi_code": true }
       },
-      "output_wrappers": {
-        "stdout": null,
-        "stderr": null
-      },
+      "output_wrappers": { "stdout": null, "stderr": null },
       "output_channel_order": "stdout-first",
       "output_handling_mode": "buffered",
       "execution_notification_mode": null,
@@ -175,27 +131,16 @@
         "default": "/opt/homebrew/bin/claude -p \"/publish {{!file_path:absolute}}\" --allowedTools \"Read,Edit,Write,Bash\""
       },
       "shells": {},
-      "alias": "블로그 ⑤ 발행하기 (사이트 게시)",
-      "icon": "lucide-upload-cloud",
+      "alias": "🚀 발행 (publish)",
+      "icon": "upload-cloud",
       "confirm_execution": true,
       "ignore_error_codes": [],
-      "input_contents": {
-        "stdin": null
-      },
+      "input_contents": { "stdin": null },
       "output_handlers": {
-        "stdout": {
-          "handler": "notification",
-          "convert_ansi_code": true
-        },
-        "stderr": {
-          "handler": "notification",
-          "convert_ansi_code": true
-        }
+        "stdout": { "handler": "notification", "convert_ansi_code": true },
+        "stderr": { "handler": "notification", "convert_ansi_code": true }
       },
-      "output_wrappers": {
-        "stdout": null,
-        "stderr": null
-      },
+      "output_wrappers": { "stdout": null, "stderr": null },
       "output_channel_order": "stdout-first",
       "output_handling_mode": "buffered",
       "execution_notification_mode": null,
