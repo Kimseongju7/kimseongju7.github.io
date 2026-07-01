@@ -11,6 +11,10 @@ lang: ko-KR
 # Change to your timezone › https://zones.arilyn.cc
 timezone: Asia/Seoul
 
+# Fail the build immediately on malformed front matter (points to the exact file),
+# instead of silently dropping the post and surfacing as a confusing dead link later.
+strict_front_matter: true
+
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
@@ -225,6 +229,8 @@ exclude:
   - purgecss.js
   - "*.config.js"
   - "package*.json"
+  - notes # Obsidian source vault — published via the publish skill into _posts, never built directly
+  - clips # raw web-clipper captures — source only
 
 jekyll-archives:
   enabled: [categories, tags]
