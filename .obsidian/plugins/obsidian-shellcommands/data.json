@@ -67,7 +67,7 @@
         "default": "claude -p \"/tidy-note {{!file_path:absolute}}\" --allowedTools \"Read,Edit,Bash,WebSearch,WebFetch\""
       },
       "shells": {},
-      "alias": "블로그 ② 글 정리하기 (포맷)",
+      "alias": "블로그 ② 글 정리하기",
       "icon": "lucide-wand-2",
       "confirm_execution": false,
       "ignore_error_codes": [],
@@ -100,12 +100,12 @@
     {
       "id": "scmd-autolink",
       "platform_specific_commands": {
-        "default": "claude -p \"/auto-link {{!file_path:absolute}}\" --allowedTools \"Read,Edit,Glob,Grep,Bash,WebSearch,WebFetch\""
+        "default": "claude -p \"/auto-link\" --allowedTools \"Read,Edit,Glob,Grep,Bash,WebSearch,WebFetch\""
       },
       "shells": {},
-      "alias": "블로그 ③ 노트 연결하기 (링크)",
+      "alias": "블로그 ③ 노트 연결하기 (링크, 전체)",
       "icon": "link",
-      "confirm_execution": false,
+      "confirm_execution": true,
       "ignore_error_codes": [],
       "input_contents": {
         "stdin": null
