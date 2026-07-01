@@ -5,7 +5,6 @@ categories: [학습, 용어]
 tags: [jekyll, chirpy, github-pages, static-site, blog]
 description: Jekyll은 마크다운 글을 정적 웹사이트(HTML)로 변환해 주는 정적 사이트 생성기이고, Chirpy는 그 Jekyll 위에서 동작하는 블로그용 테마다.
 ---
-
 ## 한 줄 정의
 Jekyll은 마크다운 글을 정적 웹사이트(HTML)로 변환해 주는 정적 사이트 생성기이고, Chirpy는 그 Jekyll 위에서 동작하는 블로그용 테마다.
 
@@ -41,3 +40,5 @@ publish: true
 ## 관련
 - [블로그 시작](/posts/hello-blog/)
 - [슬러그](/posts/slug/)
+- [브레드크럼](/posts/breadcrumb/) — categories를 2단계로 쓰라는 Chirpy 규칙이 만들어 주는 경로 내비게이션
+- [kramdown](/posts/kramdown/) — Jekyll이 마크다운을 HTML로 바꿀 때 쓰는 기본 변환 엔진
