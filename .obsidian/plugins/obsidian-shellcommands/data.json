@@ -212,7 +212,7 @@
       },
       "shells": {},
       "alias": "블로그 ⑥ 오늘 Claude 대화 불러오기",
-      "icon": "lucide-sparkles",
+      "icon": "lucide-message-square",
       "confirm_execution": false,
       "ignore_error_codes": [],
       "input_contents": {
