@@ -35,3 +35,6 @@ Thumbs.db
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/workspace.json.bak
+
+# Web clipper 원본 (로컬 보관, 발행/공개 안 함)
+/clips/
