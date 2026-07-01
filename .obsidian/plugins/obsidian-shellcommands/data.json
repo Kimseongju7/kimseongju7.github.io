@@ -280,12 +280,12 @@
     {
       "id": "scmd-clip",
       "platform_specific_commands": {
-        "default": "claude -p \"/web-clip {{!file_path:absolute}}\" --allowedTools \"Read,Write,Edit,Glob,Grep,Bash,WebSearch,WebFetch\""
+        "default": "claude -p \"/web-clip\" --allowedTools \"Read,Write,Edit,Glob,Grep,Bash,WebSearch,WebFetch\""
       },
       "shells": {},
-      "alias": "블로그 ⑧ 웹 클립 정리하기",
+      "alias": "블로그 ⑧ 웹 클립 정리하기 (미정리 전체)",
       "icon": "lucide-scissors",
-      "confirm_execution": false,
+      "confirm_execution": true,
       "ignore_error_codes": [],
       "input_contents": {
         "stdin": null
