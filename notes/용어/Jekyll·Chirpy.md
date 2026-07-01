@@ -47,3 +47,5 @@ publish: true
 ## 관련
 - [[블로그 시작]]
 - [[슬러그]]
+- [[브레드크럼]] — categories를 2단계로 쓰라는 Chirpy 규칙이 만들어 주는 경로 내비게이션
+- [[kramdown]] — Jekyll이 마크다운을 HTML로 바꿀 때 쓰는 기본 변환 엔진
