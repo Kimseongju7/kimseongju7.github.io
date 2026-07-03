@@ -11,6 +11,11 @@ lang: ko-KR
 # Change to your timezone › https://zones.arilyn.cc
 timezone: Asia/Seoul
 
+# Build posts whose date is in the future too. Notes are often published with a
+# timestamp a few hours ahead of the CI build time; without this Jekyll silently
+# drops them, breaking wikilinks that point to the not-yet-built post.
+future: true
+
 # Fail the build immediately on malformed front matter (points to the exact file),
 # instead of silently dropping the post and surfacing as a confusing dead link later.
 strict_front_matter: true
