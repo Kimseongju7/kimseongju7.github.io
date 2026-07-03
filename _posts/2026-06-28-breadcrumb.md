@@ -1,11 +1,10 @@
 ---
-title: 브레드크럼
+title: '브레드크럼'
 date: 2026-06-28 23:10:00 +0900
 categories: [학습, 용어]
 tags: [breadcrumb, navigation, ux, web, chirpy]
-description: 브레드크럼(breadcrumb)은 "홈 > 학습 > 용어" 처럼 현재 페이지가 사이트 계층 구조 안에서 어디에 있는지 보여 주는 경로 표시 내비게이션이다.
+description: '브레드크럼(breadcrumb)은 "홈 > 학습 > 용어" 처럼 현재 페이지가 사이트 계층 구조 안에서 어디에 있는지 보여 주는 경로 표시 내비게이션이다.'
 ---
-
 ## 한 줄 정의
 브레드크럼(breadcrumb)은 "홈 > 학습 > 용어" 처럼 현재 페이지가 사이트 계층 구조 안에서 어디에 있는지 보여 주는 경로 표시 내비게이션이다.
 
@@ -39,3 +38,4 @@ Home  >  학습  >  용어
 ## 관련
 - [Jekyll·Chirpy](/posts/jekyll-chirpy/)
 - [슬러그](/posts/slug/)
+- [히어로](/posts/hero/) — 같은 웹 UI/UX 요소로, 페이지 상단 첫인상을 담당하는 화면 영역

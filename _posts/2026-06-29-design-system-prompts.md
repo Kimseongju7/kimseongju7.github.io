@@ -1,9 +1,9 @@
 ---
-title: "디자인 시스템 프롬프트 모음"
+title: '디자인 시스템 프롬프트 모음'
 date: 2026-06-29 13:39:38 +0900
 categories: [메모]
 tags: [prompt, design-system, ai]
-description: "인터넷에서 주운 디자인 시스템 관련 프롬프트 모음 — 오케스트레이션형, DESIGN.md 팁, 역할 부여형 단발 프롬프트."
+description: '인터넷에서 주운 디자인 시스템 관련 프롬프트 모음. 오케스트레이션 지시문, DESIGN.md 팁, 역할 부여형 단발 프롬프트를 번역·설명과 함께 정리했다.'
 ---
 
 인터넷에서 주운 디자인 시스템 관련 프롬프트 모음. 출처는 [2026-06-29](/posts/daily-2026-06-29/) 일지에서 분리.
@@ -75,7 +75,7 @@ description: "인터넷에서 주운 디자인 시스템 관련 프롬프트 모
 
 **용도**: 전환 중심 디자이너 역할로 가치 제안과 CTA를 잡고 완성도 있는 랜딩 페이지 제작.
 
-**번역**: 전환을 중시하는 디자이너로서 랜딩 페이지를 만들어라. 먼저 한 줄 가치 제안과 방문자에게 원하는 단 하나의 행동을 못 박아라. 그다음 히어로, 사회적 증거, 기능 섹션, FAQ, CTA를 배치하라. 깔끔한 비주얼, 명확한 위계, 모바일 우선. 완성되어 바로 배포 가능한 페이지를 내놓아라.
+**번역**: 전환을 중시하는 디자이너로서 랜딩 페이지를 만들어라. 먼저 한 줄 가치 제안과 방문자에게 원하는 단 하나의 행동을 못 박아라. 그다음 [히어로](/posts/hero/), 사회적 증거, 기능 섹션, FAQ, CTA를 배치하라. 깔끔한 비주얼, 명확한 위계, 모바일 우선. 완성되어 바로 배포 가능한 페이지를 내놓아라.
 
 ### 8. 폼을 쓸 만하게 만들기
 
@@ -113,3 +113,9 @@ description: "인터넷에서 주운 디자인 시스템 관련 프롬프트 모
 8. 𝗠𝗮𝗸𝗲 𝘁𝗵𝗲 𝗳𝗼𝗿𝗺 𝘂𝘀𝗮𝗯𝗹𝗲 Act as a senior frontend engineer and make this form usable. Cover: real-time validation, clear inline errors, sensible defaults, keyboard and autofill friendly, submitting and success / failure states, long forms split into steps. Deliver the full implementation.
 
 </details>
+
+## 관련 노트
+
+- [히어로](/posts/hero/) — 7번 랜딩 페이지 프롬프트가 배치하라는 첫 화면(가치 제안 + CTA) 영역
+- [Loop Engineering](/posts/loop-engineering/) — 1·2번의 "병렬 에이전트 분배→검증→리뷰" 오케스트레이션 지시문이 루프의 Five Moves와 같은 구조
+- [브레이크포인트](/posts/breakpoint/) — 2번 접근성·멀티 디바이스 프롬프트가 점검하는 반응형(데스크톱/태블릿/폰) 전환 기준
