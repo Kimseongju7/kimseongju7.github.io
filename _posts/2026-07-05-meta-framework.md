@@ -1,0 +1,51 @@
+---
+title: '메타프레임워크'
+date: 2026-07-05 00:00:00 +0900
+categories: [학습, 용어]
+tags: [meta-framework, nextjs, nuxt, remix, sveltekit, astro, frontend, ssr, web]
+description: '메타프레임워크(meta-framework)는 React·Vue·Svelte 같은 UI 라이브러리 위에 라우팅·렌더링·빌드·데이터 로딩 같은 앱 뼈대를 얹어 주는 "프레임워크를 위한 프레임워크"다.'
+---
+## 한 줄 정의
+메타프레임워크(meta-framework)는 React·Vue·Svelte 같은 **UI 라이브러리 위에 라우팅·렌더링·빌드·데이터 로딩 같은 앱 뼈대를 얹어 주는 "프레임워크를 위한 프레임워크"** 다.
+
+## 자세히
+React나 Vue 같은 라이브러리는 **화면을 그리는 일(뷰)** 만 책임진다. 즉 [컴포넌트](/posts/component/)를 조립해 UI를 만들 뿐, 실제 서비스를 만들려면 필요한 것들 — URL에 따라 어떤 화면을 보여줄지 정하는 **라우팅**, HTML을 서버·빌드·브라우저 중 어디서 그릴지 정하는 **렌더링 전략**([SSR](/posts/ssr/)·SSG·[CSR](/posts/csr/)), 데이터를 언제 어떻게 불러올지, JS를 어떻게 번들링([JS 번들](/posts/js-bundle/))·최적화할지 — 은 직접 다 짜야 한다. 이 "라이브러리와 실제 앱 사이의 빈 공간"을 미리 채워 주는 것이 메타프레임워크다.
+
+"메타(meta-)"가 붙는 이유는 **다른 프레임워크/라이브러리를 감싸서 그 위에서 동작**하기 때문이다. Next.js는 React를 감싸고, Nuxt는 Vue를, SvelteKit은 Svelte를 감싼다. 개발자는 라이브러리를 직접 다루는 대신 메타프레임워크가 정해 놓은 규칙(예: `pages/` 폴더에 파일을 두면 그게 곧 URL이 되는 파일 기반 라우팅)을 따르고, 대신 라우팅·서버 렌더링·코드 스플리팅·이미지 최적화·API 엔드포인트 같은 것을 공짜로 얻는다.
+
+핵심 가치는 **렌더링 방식을 섞어 쓸 수 있게 해 준다**는 점이다. [SPA](/posts/spa/)/[CSR](/posts/csr/)은 초기 로딩·[SEO](/posts/seo/)에 약하고, [Jekyll·Chirpy](/posts/jekyll-chirpy/) 같은 순수 SSG는 앱스러운 상호작용에 약하다. 메타프레임워크는 페이지·컴포넌트 단위로 SSR/SSG/CSR을 골라 쓰고, 서버가 그린 HTML에 나중에 JS를 붙이는(hydration) 방식으로 이 장단점을 조합한다. 그래서 "어떤 렌더링을 쓸까"라는 고민 자체가 메타프레임워크를 쓰는 이유가 된다.
+
+대표적으로 **Next.js**(React), **Nuxt**(Vue), **SvelteKit**(Svelte), **Remix**(React), **Astro**(여러 UI 라이브러리 혼용), **SolidStart**(Solid) 등이 있다. 참고로 이 블로그가 쓰는 [Jekyll·Chirpy](/posts/jekyll-chirpy/)도 넓게 보면 "정적 사이트를 만들어 주는 프레임워크"지만, 서버 렌더링이나 JS 앱 통합을 목표로 하지 않는 순수 SSG라서 위의 JS 메타프레임워크들과는 결이 다르다.
+
+## 예시
+Next.js(App Router)에서 파일 기반 라우팅과 렌더링 선택이 어떻게 "기본 제공"되는지 보면:
+
+```
+app/
+  page.tsx          → "/"        경로 (홈)
+  blog/
+    page.tsx        → "/blog"    경로 (목록)
+    [slug]/
+      page.tsx      → "/blog/글제목"  경로 (개별 글, 동적 라우팅)
+```
+
+```jsx
+// 폴더 구조만으로 라우팅이 정해지고, 데이터 로딩·렌더링 방식도 함수 안에서 선택
+async function Page() {
+  const posts = await fetch('.../posts') // 기본 캐시 → SSG처럼 정적 생성
+  return <PostList data={posts} />       // React 컴포넌트는 뷰만 담당
+}
+```
+
+여기서 라우팅·서버 렌더링·번들링은 Next.js가 처리하고, 개발자는 React 컴포넌트(뷰)와 데이터만 신경 쓴다 — 이게 메타프레임워크가 대신 채워 주는 부분이다.
+
+## 관련
+- [컴포넌트](/posts/component/) — 메타프레임워크가 감싸는 UI 라이브러리(React 등)의 기본 조립 단위
+- [SSR](/posts/ssr/) — 메타프레임워크가 골라 쓸 수 있게 해 주는 렌더링 전략
+- [CSR](/posts/csr/) — SSR과 대비되는 클라이언트 렌더링 방식
+- [SPA](/posts/spa/) — 메타프레임워크가 보완하려는 순수 클라이언트 앱 구조
+- [MPA](/posts/mpa/) — 메타프레임워크가 SSR을 통해 흉내 내는 전통적 다중 페이지 구조
+- [JS 번들](/posts/js-bundle/) — 메타프레임워크가 대신 처리해주는 번들링·코드 스플리팅 대상
+- [SEO](/posts/seo/) — 메타프레임워크가 SSR·SSG 선택으로 챙기는 검색엔진 최적화
+- [Jekyll·Chirpy](/posts/jekyll-chirpy/) — 이 블로그가 쓰는 정적 사이트 생성 도구, JS 메타프레임워크와 비교되는 지점
+- [Frontend 공부하기](/posts/frontend-study/) — 프론트엔드 렌더링 방식을 정리한 노트

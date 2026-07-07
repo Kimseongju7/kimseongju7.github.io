@@ -101,3 +101,4 @@ EC2는 [멀티테넌시](/posts/multitenancy/) 서비스다. 같은 하드웨어
 - [Amazon CloudWatch](/posts/amazon-cloudwatch/) — Auto Scaling이 "언제 늘리고 줄일지" 판단하도록 지표를 감시·알람하는 짝
 - [모놀리스 애플리케이션](/posts/monolithic-application/) — SQS/SNS로 결합을 느슨하게 하기 전, 통째로 묶인 아키텍처
 - [마이크로서비스 아키텍처](/posts/microservices-architecture/) — 느슨한 결합으로 나아간, 기능별로 쪼갠 반대편 아키텍처
+- [Machine Learning Engineering on AWS](/posts/machine-learning-engineering-on-aws/) — 같은 SWM AI Infra 교육에서 이어지는 SageMaker 기반 ML 파이프라인 강의

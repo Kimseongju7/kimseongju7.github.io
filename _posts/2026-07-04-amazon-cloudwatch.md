@@ -2,7 +2,7 @@
 title: 'Amazon CloudWatch'
 date: 2026-07-04 03:01:50 +0900
 categories: [학습, 용어]
-tags: [aws, 모니터링, 관측성, observability, 클라우드]
+tags: [aws, monitoring, observability, cloud]
 description: 'AWS 리소스와 애플리케이션에서 나오는 지표·로그·이벤트를 한곳에 모아 감시하고, 임계치를 넘으면 알람·자동 대응을 트리거하는 AWS의 모니터링·관측성 서비스.'
 ---
 ## 한 줄 정의
