@@ -1,6 +1,6 @@
 ---
 title: '블로그 시작'
-date: 2026-06-28 20:00:00 +0900
+date: 2026-06-28 00:00:00 +0900
 categories: [일지]
 tags: [chirpy, jekyll, obsidian, github-pages, claude]
 description: '깃허브 블로그(Chirpy/Jekyll)를 만들고, 옵시디언으로 글 쓰는 워크플로를 구성했다.'

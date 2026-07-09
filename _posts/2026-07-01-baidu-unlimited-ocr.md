@@ -1,9 +1,9 @@
 ---
-title: "baidu/Unlimited-OCR — 3B DENSE 문서 파싱 모델"
+title: 'baidu/Unlimited-OCR — 3B DENSE 문서 파싱 모델'
 date: 2026-07-01 23:40:00 +0900
 categories: [학습, 아티클]
 tags: [ocr, vllm, baidu, document-parsing, multimodal, llm]
-description: R-SWA를 적용해 전체 페이지 OCR·마크다운 변환에 최적화된 바이두의 3B 멀티모달 문서 파싱 모델과 그 vLLM 서빙 레시피 정리.
+description: 'R-SWA를 적용해 전체 페이지 OCR·마크다운 변환에 최적화된 바이두의 3B 멀티모달 문서 파싱 모델과 그 vLLM 서빙 레시피 정리.'
 ---
 바이두(Baidu)의 문서 파싱 특화 모델 **Unlimited-OCR**은 R-SWA(Reference Sliding Window Attention)를 적용해 전체 페이지 OCR과 마크다운 변환에 최적화된 3B 규모의 멀티모달 모델이다. 한 번의 추론으로 긴 문서를 통째로 마크다운으로 뽑아내는 것이 목표다.
 
@@ -100,3 +100,4 @@ print(f"Generated text: {response.choices[0].message.content}")
 - 단일 이미지 입력은 gundam(crop) 모드를 쓰고, 다중 이미지 요청은 자동으로 non-crop(base) 모드로 전환된다 — 이 경우 `window_size=1024` 를 사용한다.
 
 > 원문: [baidu/Unlimited-OCR — 3B · DENSE](https://recipes.vllm.ai/baidu/Unlimited-OCR)
+> 원본 클립: 2026-07-01-baiduUnlimited-OCR — 3B · DENSE

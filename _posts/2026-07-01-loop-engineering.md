@@ -1,9 +1,9 @@
 ---
-title: Loop Engineering
+title: 'Loop Engineering'
 date: 2026-07-01 01:02:00 +0900
 categories: [학습, 용어]
 tags: [ai, agent, llm, claude-code, loop-engineering, 자동화]
-description: AI에게 직접 명령하는 대신, AI에게 자동으로 명령을 내리는 시스템(루프)을 설계하는 것 — 사람이 '엔진'에서 '엔진 설계자'로 옮겨가는 작업.
+description: 'AI에게 직접 명령하는 대신, AI에게 자동으로 명령을 내리는 시스템(루프)을 설계하는 것 — 사람이 ''엔진''에서 ''엔진 설계자''로 옮겨가는 작업.'
 ---
 ## 한 줄 정의
 AI에게 직접 한 줄씩 명령하는 대신, **AI에게 자동으로 명령을 내리는 시스템(루프)을 설계**하는 것 — 즉 사람이 "엔진"에서 "엔진 설계자"로 역할을 옮기는 작업.

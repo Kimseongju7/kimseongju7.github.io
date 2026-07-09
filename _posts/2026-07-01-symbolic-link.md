@@ -1,9 +1,9 @@
 ---
-title: 심볼릭 링크
+title: '심볼릭 링크'
 date: 2026-07-01 00:00:00 +0900
 categories: [학습, 용어]
 tags: [filesystem, unix, cli, shell]
-description: "다른 파일·디렉터리의 경로를 가리키는 바로가기 역할을 하는 특수한 파일. 원본을 옮기거나 지우면 깨진 링크가 된다."
+description: '심볼릭 링크(symbolic link, symlink)는 "다른 파일·디렉터리의 경로를 가리키는 바로가기" 역할을 하는 특수한 파일이다.'
 ---
 ## 한 줄 정의
 심볼릭 링크(symbolic link, symlink)는 "다른 파일·디렉터리의 경로를 가리키는 바로가기" 역할을 하는 특수한 파일이다.
