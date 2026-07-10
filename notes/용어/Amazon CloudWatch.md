@@ -2,7 +2,7 @@
 title: Amazon CloudWatch
 date: 2026-07-04 03:01:50 +0900
 categories: [학습, 용어]
-tags: [aws, 모니터링, 관측성, observability, 클라우드]
+tags: [aws, monitoring, observability, cloud]
 publish: true
 ---
 ## 한 줄 정의
