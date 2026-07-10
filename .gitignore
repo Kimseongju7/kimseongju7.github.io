@@ -38,3 +38,6 @@ Thumbs.db
 
 # Web clipper 원본 (로컬 보관, 발행/공개 안 함)
 /clips/
+
+# Playwright MCP debug artifacts
+.playwright-mcp/
