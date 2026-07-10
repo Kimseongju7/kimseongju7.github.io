@@ -28,7 +28,7 @@
     {
       "id": "scmd-today",
       "platform_specific_commands": {
-        "default": "claude -p \"/today\" --allowedTools \"Read,Write,Bash,WebSearch,WebFetch\""
+        "default": "ECC_GATEGUARD=off claude -p \"/today\" --allowedTools \"Read,Write,Bash,WebSearch,WebFetch\""
       },
       "shells": {},
       "alias": "블로그 ① 오늘 일지 만들기",
@@ -64,7 +64,7 @@
     {
       "id": "scmd-format",
       "platform_specific_commands": {
-        "default": "claude -p \"/tidy-note {{!file_path:absolute}}\" --allowedTools \"Read,Edit,Bash,WebSearch,WebFetch\""
+        "default": "ECC_GATEGUARD=off claude -p \"/tidy-note {{!file_path:absolute}}\" --allowedTools \"Read,Edit,Bash,WebSearch,WebFetch\""
       },
       "shells": {},
       "alias": "블로그 ② 글 정리하기",
@@ -100,7 +100,7 @@
     {
       "id": "scmd-autolink",
       "platform_specific_commands": {
-        "default": "claude -p \"/auto-link\" --allowedTools \"Read,Edit,Glob,Grep,Bash,WebSearch,WebFetch\""
+        "default": "ECC_GATEGUARD=off claude -p \"/auto-link\" --allowedTools \"Read,Edit,Glob,Grep,Bash,WebSearch,WebFetch\""
       },
       "shells": {},
       "alias": "블로그 ③ 노트 연결하기 (링크, 전체)",
@@ -136,7 +136,7 @@
     {
       "id": "scmd-categories",
       "platform_specific_commands": {
-        "default": "claude -p \"/organize-categories {{!vault_path}}\" --allowedTools \"Read,Edit,Glob,Grep,Bash,WebSearch,WebFetch\""
+        "default": "ECC_GATEGUARD=off claude -p \"/organize-categories {{!vault_path}}\" --allowedTools \"Read,Edit,Glob,Grep,Bash,WebSearch,WebFetch\""
       },
       "shells": {},
       "alias": "블로그 ④ 카테고리 정리하기",
@@ -172,7 +172,7 @@
     {
       "id": "scmd-publish",
       "platform_specific_commands": {
-        "default": "claude -p \"/publish\" --allowedTools \"Read,Edit,Write,Glob,Grep,Bash,WebSearch,WebFetch\""
+        "default": "ECC_GATEGUARD=off claude -p \"/publish\" --allowedTools \"Read,Edit,Write,Glob,Grep,Bash,WebSearch,WebFetch\""
       },
       "shells": {},
       "alias": "블로그 ⑤ 발행하기 (publish:true 전체)",
@@ -208,7 +208,7 @@
     {
       "id": "scmd-recall",
       "platform_specific_commands": {
-        "default": "claude -p \"/recall-claude\" --allowedTools \"Read,Edit,Write,Bash,WebSearch,WebFetch\""
+        "default": "ECC_GATEGUARD=off claude -p \"/recall-claude\" --allowedTools \"Read,Edit,Write,Bash,WebSearch,WebFetch\""
       },
       "shells": {},
       "alias": "블로그 ⑥ 오늘 Claude 대화 불러오기",
@@ -244,7 +244,7 @@
     {
       "id": "scmd-explain",
       "platform_specific_commands": {
-        "default": "claude -p \"/explain-term {{!selection}}\" --allowedTools \"Read,Write,Edit,Glob,Bash,WebSearch,WebFetch\""
+        "default": "ECC_GATEGUARD=off claude -p \"/explain-term {{!selection}}\" --allowedTools \"Read,Write,Edit,Glob,Bash,WebSearch,WebFetch\""
       },
       "shells": {},
       "alias": "블로그 ⑦ 선택한 용어 설명 노트 만들기",
@@ -280,7 +280,7 @@
     {
       "id": "scmd-clip",
       "platform_specific_commands": {
-        "default": "claude -p \"/web-clip\" --allowedTools \"Read,Write,Edit,Glob,Grep,Bash,WebSearch,WebFetch\""
+        "default": "ECC_GATEGUARD=off claude -p \"/web-clip\" --allowedTools \"Read,Write,Edit,Glob,Grep,Bash,WebSearch,WebFetch\""
       },
       "shells": {},
       "alias": "블로그 ⑧ 웹 클립 정리하기 (미정리 전체)",
