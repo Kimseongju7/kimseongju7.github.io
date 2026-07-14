@@ -49,5 +49,5 @@ function App() {
 - [React Doctor](/posts/react-doctor/) — React 컴포넌트의 잘못된 패턴을 잡아내는 스캐너
 - [SPA](/posts/spa/) — 컴포넌트를 조립해 만드는 단일 페이지 앱 구조
 - [DOM](/posts/dom/) — 컴포넌트가 다시 그려질 때 실제로 갱신되는 대상
-- [JS 번들](/posts/js-bundle/) — 컴포넌트 코드들이 묶여 브라우저로 전달되는 결과물
+- [JS번들](/posts/js-bundle/) — 컴포넌트 코드들이 묶여 브라우저로 전달되는 결과물
 - [Virtual DOM](/posts/virtual-dom/) — 컴포넌트 state가 바뀔 때 실제 DOM 대신 먼저 갱신을 계산하는 대상

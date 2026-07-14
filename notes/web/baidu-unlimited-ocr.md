@@ -100,5 +100,9 @@ print(f"Generated text: {response.choices[0].message.content}")
 - OCR 작업은 prefix caching / 이미지 재사용의 이점이 없으므로, 레시피에서 prefix caching과 mm-processor 캐시를 모두 꺼둔다.
 - 단일 이미지 입력은 gundam(crop) 모드를 쓰고, 다중 이미지 요청은 자동으로 non-crop(base) 모드로 전환된다 — 이 경우 `window_size=1024` 를 사용한다.
 
+## 관련 노트
+
+- [[hugging-face]] — 같은 Unlimited-OCR 모델의 Hugging Face 모델 카드(Transformers·SGLang 추론 경로와 평가 결과)
+
 > 원문: [baidu/Unlimited-OCR — 3B · DENSE](https://recipes.vllm.ai/baidu/Unlimited-OCR)
 > 원본 클립: [[2026-07-01-baiduUnlimited-OCR — 3B · DENSE]]

@@ -102,3 +102,5 @@ EC2는 [멀티테넌시](/posts/multitenancy/) 서비스다. 같은 하드웨어
 - [모놀리스 애플리케이션](/posts/monolithic-application/) — SQS/SNS로 결합을 느슨하게 하기 전, 통째로 묶인 아키텍처
 - [마이크로서비스 아키텍처](/posts/microservices-architecture/) — 느슨한 결합으로 나아간, 기능별로 쪼갠 반대편 아키텍처
 - [Machine Learning Engineering on AWS](/posts/machine-learning-engineering-on-aws/) — 같은 SWM AI Infra 교육에서 이어지는 SageMaker 기반 ML 파이프라인 강의
+- Developing Generative AI Applications on AWS — 같은 교육의 생성형 AI·Bedrock 중심 후속 강의
+- [AI Infra 교육 정리본](/posts/ai-infra-training/) — 이 사전강의를 포함한 SWM AI Infra 교육 5일 전체 정리본

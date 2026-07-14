@@ -36,5 +36,5 @@ sns.heatmap(corr, annot=True, cmap="coolwarm")  # 열지도로 시각화
 
 - [Machine Learning Engineering on AWS](/posts/machine-learning-engineering-on-aws/) — 훈련 전 데이터 검증 시각화 도구(히스토그램, 상자 플롯, 열지도 등)의 하나로 등장
 - [열지도](/posts/heatmap/) — 상관관계행렬을 색으로 시각화하는 기법
-- [Feature Engineering](/posts/feature-engineering/) — 상관 높은 피처 선택, 다중공선성 제거에 상관관계행렬을 활용
-- [차원의 저주](/posts/curse-of-dimensionality/) — 중복 피처(다중공선성)를 찾아 차원을 줄일 때 상관관계행렬을 사용
+- [Feature-Engineering](/posts/feature-engineering/) — 상관 높은 피처 선택, 다중공선성 제거에 상관관계행렬을 활용
+- [차원의-저주](/posts/curse-of-dimensionality/) — 중복 피처(다중공선성)를 찾아 차원을 줄일 때 상관관계행렬을 사용

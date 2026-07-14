@@ -172,7 +172,7 @@ def _estimation_agent(self) -> Generator[Agent, None, None]:
 
 **목표**: Lab 1에서 로컬로 실행하던 에이전트를 Amazon Bedrock AgentCore Runtime을 이용해 클라우드에 배포한다.
 
-AgentCore Runtime은 **AI 에이전트를 위한 서버리스 실행 환경**이다. 요청을 처리할 때만 작동하고(최대 8시간까지 장시간 작업 가능), 실제 런타임 시간만 과금되며(LLM 응답 대기 시간은 비과금), MCP 프로토콜로 접근 가능하다. 각 세션은 독립된 메모리·파일시스템·CPU를 가진 전용 microVM에서 실행돼 세션별로 기밀성이 보장되고, AgentCore Identity 통합으로 다양한 인증 방식을 지원하며, 처리 추적 기능이 내장돼 있다. 구현 언어나 프레임워크에 관계없이 특정 API를 구현한 Docker 컨테이너라면 무엇이든 실행할 수 있다는 점에서 "구현 독립적"이다.
+AgentCore Runtime은 **AI 에이전트를 위한 [[서버리스]] 실행 환경**이다. 요청을 처리할 때만 작동하고(최대 8시간까지 장시간 작업 가능), 실제 런타임 시간만 과금되며(LLM 응답 대기 시간은 비과금), MCP 프로토콜로 접근 가능하다. 각 세션은 독립된 메모리·파일시스템·CPU를 가진 전용 microVM에서 실행돼 세션별로 기밀성이 보장되고, AgentCore Identity 통합으로 다양한 인증 방식을 지원하며, 처리 추적 기능이 내장돼 있다. 구현 언어나 프레임워크에 관계없이 특정 API를 구현한 Docker 컨테이너라면 무엇이든 실행할 수 있다는 점에서 "구현 독립적"이다.
 
 배포에는 **Bedrock AgentCore Starter Toolkit**을 사용한다. `prepare_agent.py`로 IAM 역할을 생성하고 Lab 1의 소스 코드를 배포 디렉토리로 복사한 뒤, `agentcore configure`(진입점·실행 역할·종속성·리전을 지정해 `.bedrock_agentcore.yaml` 구성 파일 생성)와 `agentcore deploy`(Docker 이미지 빌드 → ECR 푸시 → AgentCore Runtime 환경 생성)로 배포한다. 진입점(`deployment/invoke.py`)은 `@app.entrypoint` 데코레이터로 감싼 매우 단순한 구현이며, 배포가 끝나면 AWS 콘솔의 "Amazon Bedrock AgentCore → Agent Runtime"에서 확인하거나 `agentcore invoke` 명령 또는 콘솔의 Test Endpoint로 직접 호출해볼 수 있다.
 
@@ -708,7 +708,7 @@ generation = policy_client.generate_policy(
 
 **목표**: AgentCore Browser로 API가 없는 웹 폼을 조작하는 방법을 익힌다.
 
-기업 내 프로젝트 관리 도구, 티켓 포털, 오래된 온프레미스 시스템 등은 API를 제공하지 않는 경우가 많다. HTML 폼만 있는 도구에 에이전트가 만든 비용 추정 결과를 입력하고 싶을 때 API도 MCP도 쓸 수 없는데, 이때 AgentCore Browser가 해결책이 된다. 완전 관리형 원격 브라우저 환경으로 인프라 관리 없이 수천 개의 동시 세션을 병렬 실행할 수 있고(기본 타임아웃 15분, 최대 8시간), WebSocket 기반 스트리밍 API로 탐색·클릭·입력·스크린샷 등을 수행하며 Playwright 같은 라이브러리와 연동할 수 있다. 세션 녹화는 S3에 저장돼 재생할 수 있고, 콘솔에서 라이브 모니터링도 가능하다.
+기업 내 프로젝트 관리 도구, 티켓 포털, 오래된 [[온프레미스]] 시스템 등은 API를 제공하지 않는 경우가 많다. HTML 폼만 있는 도구에 에이전트가 만든 비용 추정 결과를 입력하고 싶을 때 API도 MCP도 쓸 수 없는데, 이때 AgentCore Browser가 해결책이 된다. 완전 관리형 원격 브라우저 환경으로 인프라 관리 없이 수천 개의 동시 세션을 병렬 실행할 수 있고(기본 타임아웃 15분, 최대 8시간), WebSocket 기반 스트리밍 API로 탐색·클릭·입력·스크린샷 등을 수행하며 Playwright 같은 라이브러리와 연동할 수 있다. 세션 녹화는 S3에 저장돼 재생할 수 있고, 콘솔에서 라이브 모니터링도 가능하다.
 
 구현은 `browser_session` 컨텍스트 매니저로 AgentCore Browser 세션을 시작하고, `generate_ws_headers`로 얻은 WebSocket URL·SigV4 인증 헤더를 이용해 Playwright의 `connect_over_cdp`(Chrome DevTools Protocol)로 연결하는 방식이다.
 
@@ -826,3 +826,11 @@ uv run python clean_resources.py
 cd 02_runtime
 uv run python clean_resources.py
 ```
+
+## 관련 노트
+
+- [[AgentCoreWithWebApp 빈칸 채우기 실습]] — 이 워크샵의 Lab 1·2·3·6·7 코드를 하나의 채팅 웹앱으로 통합해 빈칸 채우기로 만든 후속 실습
+- [[Developing Generative AI Applications on AWS]] — 같은 교육에서 AgentCore를 Module 10으로 소개한 상위 강의
+- [[AI Infra 교육 정리본]] — 이 워크샵(5일차)을 포함한 SWM AI Infra 교육 5일 전체 정리본
+- [[서버리스]] — AgentCore Runtime이 채택한, 요청 처리 시에만 과금되는 실행 모델
+- [[온프레미스]] — Lab 9 Browser Use가 대응하는, API가 없는 레거시 온프레미스 시스템

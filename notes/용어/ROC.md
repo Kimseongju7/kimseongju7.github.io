@@ -40,3 +40,5 @@ auc = roc_auc_score(y_true, y_score)  # 예: 0.87
 
 - [[Machine Learning Engineering on AWS]] — 이번에 실습 중인 SageMaker 강의 정리 노트
 - [[오류 임계값]] — 둘 다 "임계값(threshold)"을 조절하는 개념이지만, 이쪽은 분류 결정 기준을 가리키고 저쪽은 SageMaker Data Wrangler의 데이터 분할 비율 오차 허용치를 가리키는 별개 개념
+- [[혼돈행렬]] — ROC가 임계값 전 구간을 훑는 것과 달리, 한 임계값에서의 TP/TN/FP/FN 스냅샷을 보여주는 표
+- [[Ground-Truth|Ground Truth]] — ROC의 TPR·FPR을 계산하는 기준이 되는 정답 데이터

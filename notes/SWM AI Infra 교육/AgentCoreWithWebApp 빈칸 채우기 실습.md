@@ -136,3 +136,5 @@ cd web && uv run uvicorn app:app --reload --port 8080
 - 원본 리포지토리: https://github.com/k2hdevil/AgentCoreWithWebApp-workshop
 - 원본 샘플 코드: https://github.com/aws-samples/sample-amazon-bedrock-agentcore-onboarding
 - 개념 배경: [[Amazon Bedrock AgentCore 워크샵]] (Lab 2 Runtime, Lab 3 Memory, Lab 6 Identity, Lab 7 Gateway에 각각 대응)
+- [[Developing Generative AI Applications on AWS]] — AgentCore를 Module 10으로 다룬 상위 강의
+- [[AI Infra 교육 정리본]] — 이 실습을 포함한 SWM AI Infra 교육 5일 전체 정리본

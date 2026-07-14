@@ -280,3 +280,6 @@ API가 개발되기 전에는 [mock](/posts/mock/)으로 진행하는 식으로 
 - [메타프레임워크](/posts/meta-framework/) — React 위에 얹어 SSR까지 담당하는 Next.js가 속한 분류
 - [심볼릭 링크](/posts/symbolic-link/) — pnpm이 라이브러리 중복 저장을 피하려고 쓰는 방식
 - [mock](/posts/mock/) — 백엔드 API가 준비되기 전 프론트엔드 개발에 쓰는 가짜 데이터/응답
+- [nextjs-16-3-turbopack](/posts/nextjs-16-3-turbopack/) — 이 노트가 다룬 Next.js의 최신 버전과 Turbopack 빌드 소식
+- [js-framework-hype-cycle](/posts/js-framework-hype-cycle/) — React·Next 등 JS 프레임워크가 뜨고 지는 하이프 사이클 관점
+- [React Doctor](/posts/react-doctor/) — React 컴포넌트의 재렌더링·성능 문제를 진단하는 도구

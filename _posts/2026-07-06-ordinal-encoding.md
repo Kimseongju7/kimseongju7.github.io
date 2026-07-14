@@ -37,7 +37,7 @@ df["등급_인코딩"] = df["등급"].map(order)
 
 ## 관련
 
-- [Feature Engineering](/posts/feature-engineering/) — 범주형 인코딩(원-핫/레이블 인코딩)을 포함한 전처리 작업 전반
+- [Feature-Engineering](/posts/feature-engineering/) — 범주형 인코딩(원-핫/레이블 인코딩)을 포함한 전처리 작업 전반
 - [Machine Learning Engineering on AWS](/posts/machine-learning-engineering-on-aws/) — 레이블·원핫·순서형·바이너리 인코딩을 함께 다루는 강의 정리 노트
-- [차원의 저주](/posts/curse-of-dimensionality/) — 원-핫 인코딩 대비 차원을 늘리지 않는 서수 인코딩의 장점과 연결되는 개념
+- [차원의-저주](/posts/curse-of-dimensionality/) — 원-핫 인코딩 대비 차원을 늘리지 않는 서수 인코딩의 장점과 연결되는 개념
 - [오류 임계값](/posts/error-threshold/) — 같은 SageMaker Data Wrangler 강의에서 함께 다룬 데이터 전처리 기능
