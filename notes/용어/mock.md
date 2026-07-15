@@ -1,0 +1,41 @@
+---
+title: mock
+date: 2026-07-04 23:00:24 +0900
+categories: [학습, 용어]
+tags: [testing, mock, 테스트, tdd]
+publish: true
+---
+## 한 줄 정의
+테스트할 때 진짜 의존 객체 대신 끼워 넣는 "가짜(모조) 객체"로, 정해진 동작을 흉내 내고 어떻게 호출됐는지까지 검증할 수 있게 해준다.
+
+## 자세히
+어떤 함수나 컴포넌트를 테스트할 때, 그것이 의존하는 다른 모듈(DB, 외부 API, 결제 서버, 시계 등)까지 진짜로 불러오면 테스트가 느려지고 불안정해진다. 네트워크가 끊기거나 응답이 그때그때 달라지면 테스트가 랜덤하게 실패하기 때문이다. 그래서 그 의존 부분을 **미리 정한 대로만 반응하는 가짜**로 바꿔치기하는데, 이걸 mock 이라고 한다. 관심 있는 대상만 격리해서(SUT, System Under Test) 검증하는 것이 목적이다.
+
+mock 의 핵심은 단순히 값을 돌려주는 데 그치지 않고 **상호작용(behavior)을 검증**한다는 점이다. 예를 들어 "결제 서비스의 `charge()` 가 정확히 한 번, 1000원 인자로 호출됐는가?" 같은 걸 확인할 수 있다. 이런 이유로 "가짜 객체"를 더 세분화해서 부르기도 한다. Stub 은 정해진 값을 돌려주기만 하는 것, Spy 는 실제 동작을 하면서 호출 기록만 남기는 것, Fake 는 가볍게 실제처럼 동작하는 구현(예: 인메모리 DB), Mock 은 "이렇게 호출될 것"이라는 기대까지 미리 걸어두고 검증하는 것을 가리킨다. 이 넷을 통틀어 넓은 의미로 그냥 "목(mock)" 이라 부르는 경우가 많다.
+
+장점은 테스트가 빠르고 결정적(deterministic)이며 외부 환경에 의존하지 않는다는 점이다. 반면 남용하면 문제가 생긴다. 실제 구현이 아닌 "내가 상상한 동작"을 검증하게 되어, 테스트는 초록불인데 실제로는 깨지는 상황이 생길 수 있다. 그래서 외부 경계(네트워크·시간·랜덤 등)에는 mock 을 쓰되, 내부 순수 로직은 굳이 mock 하지 않고 진짜로 검증하는 편이 권장된다.
+
+## 예시
+Jest(자바스크립트)에서 결제 함수 호출을 mock 으로 검증하는 예:
+
+```js
+// paymentService 를 통째로 가짜로 대체
+const paymentService = {
+  charge: jest.fn().mockResolvedValue({ ok: true }),
+};
+
+async function checkout(cart, payment) {
+  return payment.charge(cart.total);
+}
+
+test('결제는 장바구니 합계로 정확히 한 번 호출된다', async () => {
+  const cart = { total: 1000 };
+
+  await checkout(cart, paymentService);
+
+  expect(paymentService.charge).toHaveBeenCalledTimes(1); // 호출 횟수 검증
+  expect(paymentService.charge).toHaveBeenCalledWith(1000); // 인자 검증
+});
+```
+
+`jest.fn()` 이 만들어 낸 가짜 함수가 `charge` 자리를 대신하고, 실제 결제 없이 호출 여부·인자·횟수를 그대로 들여다볼 수 있다.
