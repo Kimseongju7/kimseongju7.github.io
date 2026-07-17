@@ -2,7 +2,7 @@
 title: '도대체 루프가 뭔데? — 한 단어 뒤에 숨은 네 가지 아키텍처'
 date: 2026-07-14 14:11:54 +0900
 categories: [학습, 아티클]
-tags: [loops, agents, ai, software-factory, autoresearch, loop-engineering]
+tags: [loops, ai-agent, ai, software-factory, autoresearch, loop-engineering]
 description: 'AI 엔지니어링 세계가 새로 사랑에 빠진 단어 "루프"는 적어도 네 가지 서로 다른 것(실행·태스크·프로덕트·시스템 루프)을 의미한다는 것을 지도로 그려 본 글.'
 ---
 AI 엔지니어링 세계가 이번 달 새로 사랑에 빠진 단어 "루프(the loop)"는 적어도 네 가지 서로 다른 것을 의미한다. 루프를 말하는 사람들은 같은 것을 이야기하고 있지 않다 — 이 글은 그 한 단어 뒤에 숨은 네 가지 아키텍처를 지도로 그려 본 시도다.

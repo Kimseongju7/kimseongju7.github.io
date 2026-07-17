@@ -2,7 +2,7 @@
 title: 'MadsLorentzen/ai-job-search — Claude Code 기반 AI 구직 프레임워크'
 date: 2026-07-14 14:18:23 +0900
 categories: [개발, 도구]
-tags: [claude-code, job-search, cv, latex, agent, workflow, career]
+tags: [claude-code, job-search, cv, latex, ai-agent, workflow, career]
 description: 'Claude Code를 구직 도우미로 바꿔 채용 공고 평가, CV·커버레터 작성, 면접 준비까지 자동화하는 오픈소스 프레임워크 ai-job-search 정리.'
 ---
 **ai-job-search**는 Claude Code를 풀스택 구직 도우미로 바꿔주는 오픈소스 프레임워크다. 포크해서 프로필을 채우면 Claude가 채용 공고를 평가하고, CV를 맞춤 수정하고, 커버레터를 쓰고, 면접 준비까지 해준다. 만든 이가 자신의 구직에 직접 써서 69건의 맞춤 지원, 20번의 1차 면접, 1건의 계약 서명으로 2026년 6월 AI 엔지니어로 입사한 실전 검증 사례가 붙어 있다.

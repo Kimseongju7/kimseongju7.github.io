@@ -2,7 +2,7 @@
 title: 'shareAI-lab/learn-claude-code — Bash만 있으면 된다: 0부터 만드는 나노 Claude Code 에이전트 하니스'
 date: 2026-07-14 14:03:19 +0900
 categories: [학습, 아티클]
-tags: [agent, harness, claude-code, llm, tutorial, mcp, subagent, open-source]
+tags: [ai-agent, harness, claude-code, llm, tutorial, mcp, subagent, open-source]
 description: 'Claude Code 같은 코딩 에이전트를 0부터 직접 만들어 보며 "하니스 엔지니어링"을 가르치는 20강 튜토리얼 저장소다. 핵심 주장은 에이전시는 모델 훈련에서 나오고, 우리가 만드는 것은 모델이 활동할 세계인 하니스라는 것이다.'
 ---
 Claude Code 같은 코딩 에이전트를 0부터 직접 만들어 보며 "하니스 엔지니어링"을 가르치는 20강 튜토리얼 저장소다. 핵심 주장은 하나 — 에이전시(지각·추론·행동 능력)는 모델 훈련에서 나오고, 우리가 만드는 것은 모델이 활동할 세계인 하니스(harness)라는 것이다.

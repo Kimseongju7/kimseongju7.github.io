@@ -1,7 +1,7 @@
 ---
 title: 'AI Infra 교육 정리본'
 date: 2026-07-08 00:00:00 +0900
-categories: [학습, aws]
+categories: [학습, AWS]
 tags: [aws, sagemaker, 머신러닝, mlops, swm, llm, bedrock, rag, 에이전틱ai]
 description: 'SWM AI Infra 교육 1~2일차, 4~5일차 정리본. 머신러닝 기초 개념부터 데이터 준비, 모델 훈련·평가·배포, 보안, MLOps/CI-CD 파이프라인까지 Amazon SageMaker 중심으로 다루고, 4일차에는 LLM·파운데이션 모델 기초, Amazon Bedrock 구조와 API, 프롬프트 엔지니어링, RAG(검색 증강 생성)까지, 5일차에는 LLM·RAG 평가 지표(RAGAS), 에이전틱 AI 개념과 워크플로우 패턴, Amazon Bedrock 에이전트 코어(런타임·메모리·아이덴티티·게이트웨이·관측 가능성), AWS 비용 견적 에이전트 구현 워크숍까지 정리했다.'
 ---

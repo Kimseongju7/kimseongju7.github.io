@@ -2,7 +2,7 @@
 title: 'openai/codex-plugin-cc — Claude Code 안에서 Codex를 쓰는 공식 플러그인'
 date: 2026-07-14 14:18:06 +0900
 categories: [개발, 도구]
-tags: [codex, claude-code, plugin, code-review, openai, agent]
+tags: [codex, claude-code, plugin, code-review, openai, ai-agent]
 description: 'OpenAI가 공개한 codex-plugin-cc는 Claude Code 안에서 그대로 Codex를 불러 코드 리뷰를 받거나 작업을 위임할 수 있게 해주는 플러그인이다. 이미 Claude Code 워크플로를 쓰고 있는 사용자가 별도 전환 없이 Codex를 쓰기 시작할 수 있도록 만든 것이 목적이다.'
 ---
 OpenAI가 공개한 **codex-plugin-cc**는 Claude Code 안에서 그대로 Codex를 불러 코드 리뷰를 받거나 작업을 위임할 수 있게 해주는 플러그인이다. 이미 Claude Code 워크플로를 쓰고 있는 사용자가 별도 전환 없이 Codex를 쓰기 시작할 수 있도록 만든 것이 목적이다.

@@ -2,8 +2,8 @@
 title: 'React Doctor'
 date: 2026-07-01 01:05:00 +0900
 categories: [학습, 용어]
-tags: [react, ai, agent, linter, oxlint, 코드품질, frontend]
-description: 'AI 코딩 에이전트나 개발자가 만들어내는 잘못된 React 패턴을 규칙 기반(결정론적)으로 잡아내는 코드 스캐너.'
+tags: [react, ai, ai-agent, linter, oxlint, 코드품질, frontend]
+description: 'AI가 만든 React 코드의 나쁜 패턴을 규칙 기반으로 잡아내는 오픈소스 코드 스캐너 React Doctor를 정리한다'
 ---
 ## 한 줄 정의
 AI 코딩 에이전트나 개발자가 만들어내는 **잘못된 React 패턴을 규칙 기반(결정론적)으로 잡아내는 코드 스캐너** — 코드 건강검진 도구.

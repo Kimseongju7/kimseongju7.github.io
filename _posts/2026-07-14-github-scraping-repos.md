@@ -2,7 +2,7 @@
 title: '인터넷 전체를 스크래핑하기 위한 GitHub 저장소 10선'
 date: 2026-07-14 14:32:26 +0900
 categories: [개발, 도구]
-tags: [scraping, crawler, github, opensource, firecrawl, scrapy, browser-automation]
+tags: [scraping, crawler, github, open-source, firecrawl, scrapy, browser-automation]
 description: '어떤 웹에서든 깨끗한 데이터를 추출할 수 있는 GitHub 오픈소스 스크래핑 저장소 10개를 소개하는 트윗 스레드 정리.'
 ---
 X의 Alejo(@ecommartinez)가 정리한 스레드로, 어떤 웹에서든 깨끗한 데이터를 추출할 수 있는 GitHub 오픈소스 저장소 10개를 소개한다. 이런 수준의 접근은 보통 영업 전화와 계약이 필요한 유료 서비스 영역이라는 것이 스레드의 요지다.

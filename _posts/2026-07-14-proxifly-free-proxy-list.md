@@ -2,7 +2,7 @@
 title: 'proxifly/free-proxy-list — 100+개국 HTTPS·SOCKS5 무료 로테이팅 프록시 리스트'
 date: 2026-07-14 14:32:15 +0900
 categories: [개발, 도구]
-tags: [proxy, socks5, https, api, npm, opensource, scraping]
+tags: [proxy, socks5, https, api, npm, open-source, scraping]
 description: 'Proxifly는 5분마다 웹에서 HTTP·HTTPS·SOCKS4·SOCKS5 프록시를 새로 수집·검증해 무료로 제공하는 프로젝트로, 최신 기준 111개국에서 6,067개의 동작하는 프록시를 확보하고 있다.'
 ---
 **Proxifly**는 5분마다 웹 곳곳에서 HTTP·HTTPS·SOCKS4·SOCKS5 프록시를 새로 수집·검증해 무료로 제공하는 프로젝트다. 최신 업데이트(2026-07-14 04:11 UTC) 기준 **111개국에서 6,067개**의 동작하는 프록시를 확보했다.

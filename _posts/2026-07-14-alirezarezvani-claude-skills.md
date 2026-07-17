@@ -2,7 +2,7 @@
 title: 'alirezarezvani/claude-skills — 13개 코딩 에이전트용 345+ 스킬·플러그인 라이브러리'
 date: 2026-07-14 14:14:13 +0900
 categories: [개발, 도구]
-tags: [claude-code, skills, plugins, agents, codex, gemini-cli, cursor, open-source]
+tags: [claude-code, skills, plugins, ai-agent, codex, gemini-cli, cursor, open-source]
 description: '13개 AI 코딩 도구에서 쓸 수 있는 355개 프로덕션급 Claude Code 스킬·플러그인·에이전트 라이브러리 소개.'
 ---
 alirezarezvani/claude-skills는 355개의 프로덕션급 Claude Code 스킬·플러그인·에이전트 스킬을 모은 최대 규모의 오픈소스 라이브러리다. Claude Code뿐 아니라 OpenAI Codex, Gemini CLI, Cursor 등 13개 AI 코딩 도구에서 쓸 수 있으며, GitHub 스타 5,200+를 기록하고 있다.

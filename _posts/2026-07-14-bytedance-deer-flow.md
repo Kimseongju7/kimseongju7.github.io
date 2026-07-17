@@ -2,7 +2,7 @@
 title: 'bytedance/deer-flow — 리서치·코딩·창작을 수행하는 오픈소스 슈퍼 에이전트 하네스 DeerFlow 2.0'
 date: 2026-07-14 14:12:42 +0900
 categories: [개발, 도구]
-tags: [agents, harness, langgraph, langchain, sandbox, mcp, skills, deep-research, bytedance]
+tags: [ai-agent, harness, langgraph, langchain, sandbox, mcp, skills, deep-research, bytedance]
 description: '서브에이전트·메모리·샌드박스를 오케스트레이션해 리서치·코딩·창작을 수행하는 바이트댄스의 오픈소스 슈퍼 에이전트 하네스 DeerFlow 2.0 정리.'
 ---
 DeerFlow(**D**eep **E**xploration and **E**fficient **R**esearch **Flow**)는 **서브에이전트, 메모리, 샌드박스**를 오케스트레이션해 거의 무엇이든 해내는 오픈소스 **슈퍼 에이전트 하네스**다. 확장 가능한 스킬로 구동되며, 수분에서 수시간이 걸리는 다양한 수준의 태스크를 처리한다. 2026년 2월 28일 버전 2 출시 후 GitHub Trending 1위를 차지했다.

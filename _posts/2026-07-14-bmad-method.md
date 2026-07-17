@@ -2,7 +2,7 @@
 title: 'BMAD-METHOD — 애자일 AI 주도 개발(Agile AI Driven Development) 프레임워크'
 date: 2026-07-14 14:35:43 +0900
 categories: [개발, 도구]
-tags: [bmad, agile, ai-agents, workflow, claude-code, open-source]
+tags: [bmad, agile, ai-agent, workflow, claude-code, open-source]
 description: '프로젝트 규모에 맞춰 계획 깊이를 조절하는 스케일 적응형 애자일 AI 주도 개발 오픈소스 프레임워크 BMAD-METHOD 소개.'
 ---
 **BMAD-METHOD**(Build More Architect Dreams)는 버그 수정부터 엔터프라이즈 시스템까지 프로젝트 규모에 맞춰 계획 깊이를 조절하는 스케일 적응형(scale-adaptive) 애자일 AI 주도 개발 프레임워크다. 100% 무료 오픈소스(MIT 라이선스)로, 유료 장벽·게이트된 콘텐츠·유료 Discord가 전혀 없다.

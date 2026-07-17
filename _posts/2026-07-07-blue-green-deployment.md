@@ -2,7 +2,7 @@
 title: '블루그린배포'
 date: 2026-07-07 00:00:00 +0900
 categories: [학습, 용어]
-tags: [deployment, devops, cicd, availability, infra]
+tags: [배포, devops, cicd, availability, infra]
 description: '기존 버전(Blue)을 그대로 살려둔 채 새 버전(Green)을 별도 환경에 띄워두고, 트래픽을 한 번에 전환해 무중단으로 배포하는 기법.'
 ---
 ## 한 줄 정의

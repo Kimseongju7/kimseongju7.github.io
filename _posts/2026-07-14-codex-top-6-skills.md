@@ -2,7 +2,7 @@
 title: 'Codex 공인 최강 6개 Skill 정리 (Kyrie의 X 스레드)'
 date: 2026-07-14 14:36:54 +0900
 categories: [개발, 도구]
-tags: [codex, skills, ai-agents, superpowers, claude-mem, plugins, productivity]
+tags: [codex, skills, ai-agent, superpowers, claude-mem, plugins, productivity]
 description: '요구사항 분해부터 장기 기억, 웹 정보 수집, 레거시 코드 이해, AI 문체 제거까지 Codex를 확장하는 대표 스킬 6가지 정리.'
 ---
 X(트위터)의 Kyrie(@KyrieCheungYep)가 정리한 "Codex 공인 최강의 6개 Skill" 스레드. 요구사항 분해부터 장기 기억, 웹 정보 수집, 레거시 코드 이해, AI 문체 제거까지 Codex 에이전트를 확장하는 대표 스킬 6가지를 소개한다.

@@ -2,7 +2,7 @@
 title: 'DietrichGebert/ponytail — AI 에이전트를 ''가장 게으른 시니어 개발자''로 만드는 플러그인'
 date: 2026-07-14 14:19:23 +0900
 categories: [개발, 도구]
-tags: [claude-code, codex, plugin, yagni, agent, prompt, benchmark]
+tags: [claude-code, codex, plugin, yagni, ai-agent, prompt, benchmark]
 description: 'Ponytail은 AI 코딩 에이전트가 방에서 가장 게으른 시니어 개발자처럼 생각하게 만드는 플러그인으로, 실측 기준 코드 약 54% 감소·비용 약 20% 절감·속도 약 27% 향상·안전성 100% 유지를 내세운다.'
 ---
 **Ponytail**은 AI 코딩 에이전트가 "방에서 가장 게으른 시니어 개발자"처럼 생각하게 만드는 플러그인이다. 50줄을 보여주면 말없이 한 줄로 바꿔놓는 그 시니어를 에이전트 안에 넣는다는 컨셉으로, 실측 기준 **코드 약 54% 감소(최대 94%) · 비용 약 20% 절감 · 속도 약 27% 향상 · 안전성 100% 유지**를 내세운다.

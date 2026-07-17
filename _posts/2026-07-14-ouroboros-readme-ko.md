@@ -2,7 +2,7 @@
 title: 'Ouroboros 한국어 README — 명세 우선 AI 개발 시스템 (한국어판 고유 내용)'
 date: 2026-07-14 14:21:25 +0900
 categories: [개발, 도구]
-tags: [ouroboros, spec-first, claude-code, tui, workflow, agent]
+tags: [ouroboros, spec-first, claude-code, tui, workflow, ai-agent]
 description: 'Q00/ouroboros 저장소의 공식 한국어 README 정리. 영문판과 겹치는 개념은 생략하고, 한국어판만의 표현·수치·TUI 실시간 모니터링 섹션 등 고유 내용 위주로 담았다.'
 ---
 Q00/ouroboros 저장소의 공식 한국어 README 정리다. 전체 개념(Agent OS 스택, 순환 구조, 모호성 게이트, 아홉 에이전트 등)은 영문 README 정리본 [ouroboros-agent-os](/posts/ouroboros-agent-os/)와 겹치므로, 여기서는 한국어판의 표현과 한국어판에만 있는 고유 내용 위주로 담는다.

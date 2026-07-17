@@ -2,7 +2,7 @@
 title: 'Headroom — LLM에 도달하기 전에 컨텍스트를 압축하는 레이어'
 date: 2026-07-14 14:36:41 +0900
 categories: [개발, 도구]
-tags: [headroom, context-compression, llm, tokens, mcp, proxy, ai-agents, open-source]
+tags: [headroom, context-compression, llm, tokens, mcp, proxy, ai-agent, open-source]
 description: '툴 출력·로그·RAG 청크·파일을 LLM에 도달하기 전에 압축하는 오픈소스 컨텍스트 압축 레이어 Headroom 정리.'
 ---
 **Headroom**은 AI 에이전트가 읽는 모든 것 — 툴 출력, 로그, RAG 청크, 파일, 대화 히스토리 — 을 LLM에 도달하기 전에 압축하는 오픈소스(Apache 2.0) 컨텍스트 압축 레이어다. JSON 데이터는 60~95%, 코딩 에이전트는 15~20% 토큰을 줄이면서 같은 답을 얻는 것이 목표이며, 로컬 우선(local-first)이고 압축이 가역적(reversible)이다. 데모에서는 10,144 토큰이 1,260 토큰으로 줄어도 같은 FATAL 로그를 찾아냈다.

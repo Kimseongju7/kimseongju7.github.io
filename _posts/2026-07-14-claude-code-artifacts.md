@@ -2,7 +2,7 @@
 title: 'Claude Code, 아티팩트(artifacts) 지원 시작'
 date: 2026-07-14 14:37:33 +0900
 categories: [개발, 도구]
-tags: [claude-code, artifacts, anthropic, collaboration, ai-agents]
+tags: [claude-code, artifacts, anthropic, collaboration, ai-agent]
 description: 'Claude Code 작업 진행 상황을 PR 워크스루, 대시보드, 릴리스 체크리스트 같은 살아있는 공유 웹 페이지로 캡처하는 아티팩트 기능 소개.'
 ---
 Claude Code가 작업 진행 상황을 **아티팩트**로 캡처할 수 있게 됐다. 아티팩트는 Claude Code의 작업을 살아 있는 공유 가능한 시각적 웹 페이지 — PR 워크스루, 시스템 설명서, 대시보드, 릴리스 체크리스트 등 — 로 바꿔 주며, 세션이 진행되는 동안 스스로 업데이트된다.

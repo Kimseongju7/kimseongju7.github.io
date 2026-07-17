@@ -1,7 +1,7 @@
 ---
 title: '사전강의 - AWS Cloud Practitioner Essentials'
 date: 2026-07-04 00:00:00 +0900
-categories: [학습, aws]
+categories: [학습, AWS]
 tags: [aws, cloud, swm]
 description: 'AWS Cloud Practitioner Essentials 사전강의 정리. 클라이언트-서버 모델부터 클라우드 컴퓨팅의 개념, AWS의 역사와 장점, 글로벌 인프라, 공동 책임 모델까지의 기본 개념을 다룬다.'
 ---

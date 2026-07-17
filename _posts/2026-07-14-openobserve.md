@@ -2,7 +2,7 @@
 title: 'OpenObserve — Datadog·Splunk·Elasticsearch를 대체하는 오픈소스 관측성 플랫폼'
 date: 2026-07-14 14:25:22 +0900
 categories: [개발, 도구]
-tags: [observability, opensource, rust, logs, metrics, tracing, opentelemetry, datadog, elasticsearch]
+tags: [observability, open-source, rust, logs, metrics, tracing, opentelemetry, datadog, elasticsearch]
 description: 'OpenObserve(O2)는 로그·메트릭·트레이스·RUM을 하나로 다루는 클라우드 네이티브 관측성 플랫폼으로, Datadog·Splunk·Elasticsearch 대비 저장 비용 140배 절감과 단일 바이너리 배포를 내세운다.'
 ---
 OpenObserve(O2)는 로그, 메트릭, 트레이스, 애널리틱스, RUM(Real User Monitoring)을 하나로 다루는 클라우드 네이티브 관측성(observability) 플랫폼이다. Datadog·Splunk·Elasticsearch의 비용 효율적 대안을 표방하며, 저장 비용 140배 절감과 단일 바이너리 배포가 핵심 셀링 포인트다.

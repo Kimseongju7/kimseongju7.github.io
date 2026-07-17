@@ -2,7 +2,7 @@
 title: '루프 시작하기 — Claude Code 팀이 정의하는 4가지 루프'
 date: 2026-07-14 14:10:45 +0900
 categories: [학습, 아티클]
-tags: [claude-code, loops, agents, automation, workflow, skills]
+tags: [claude-code, loops, ai-agent, automation, workflow, skills]
 description: 'Claude Code 팀이 정의하는 턴 기반·목표 기반·시간 기반·프로액티브 4가지 루프와 활용법 정리.'
 ---
 요즘 코딩 에이전트에 프롬프트를 쓰는 대신 "루프를 설계하라"는 이야기가 많다. Claude Code 팀은 **루프를 "정지 조건이 충족될 때까지 작업 사이클을 반복하는 에이전트"** 로 정의하고, 트리거 방식·정지 방식·사용하는 Claude Code 프리미티브·적합한 작업 유형에 따라 네 가지로 분류한다. 모든 작업에 복잡한 루프가 필요한 건 아니므로, 가장 단순한 해법부터 시작해 이 패턴들을 선택적으로 쓰라는 것이 핵심이다.

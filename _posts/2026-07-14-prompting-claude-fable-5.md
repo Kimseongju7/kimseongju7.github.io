@@ -2,7 +2,7 @@
 title: 'Claude Fable 5 프롬프팅 가이드'
 date: 2026-07-14 14:15:40 +0900
 categories: [개발, AI]
-tags: [claude, prompt-engineering, fable-5, anthropic, agents, llm]
+tags: [claude, prompt-engineering, fable-5, anthropic, ai-agent, llm]
 description: 'Claude Fable 5(및 Claude Mythos 5)에 특화된 프롬프팅·스캐폴딩 패턴을 다루는 Anthropic 공식 가이드로, 장기 자율성·강한 지시 이행·병렬 서브에이전트 등 이전 모델과 달라진 지점을 정리한다.'
 ---
 Claude Fable 5(및 Claude Mythos 5)에 특화된 프롬프팅·스캐폴딩 패턴을 다루는 Anthropic 공식 가이드다. Fable 5는 이전 모델에게는 너무 복잡하거나 장기적이거나 모호했던 문제, 특히 사람이 몇 시간~몇 주 걸리는 end-to-end 작업에 강하며, 가장 좋은 성과를 내는 팀들은 가장 어려운 미해결 문제에 이 모델을 투입한다.
