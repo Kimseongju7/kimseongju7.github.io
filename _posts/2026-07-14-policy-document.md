@@ -43,4 +43,5 @@ S3 버킷 하나를 읽기만 허용하는 최소 정책 문서:
 `Version`은 정책 언어 버전(날짜 형식의 고정값)이고, 위 문서를 IAM 사용자에게 붙이면 그 사용자는 `my-bucket`에서 객체를 읽고 목록을 볼 수만 있다.
 
 ## 관련
-- [AI Infra 교육 정리본](/posts/ai-infra-training/)
+- [AI Infra 교육 정리본](/posts/ai-infra-training/) — AWS IAM 정책 문서를 실습하며 다룬 교육 정리 노트
+- [결정 기록](/posts/decision-record/) — 정책 문서가 "지금 규칙이 무엇인가"를 담는다면, 결정 기록은 "왜 그 규칙에 도달했는가"를 담는 대비되는 문서

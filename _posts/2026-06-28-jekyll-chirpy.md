@@ -38,7 +38,8 @@ publish: true
 3. 깃에 commit & push → GitHub Actions가 Jekyll(+Chirpy)로 빌드 → GitHub Pages에 배포.
 
 ## 관련
-- [블로그 시작](/posts/hello-blog/)
-- [슬러그](/posts/slug/)
+- [블로그 시작](/posts/hello-blog/) — 이 블로그를 Jekyll+Chirpy로 시작한 첫 글
+- [슬러그](/posts/slug/) — Jekyll/Chirpy의 front matter에서 URL을 결정하는 항목
 - [브레드크럼](/posts/breadcrumb/) — categories를 2단계로 쓰라는 Chirpy 규칙이 만들어 주는 경로 내비게이션
 - [kramdown](/posts/kramdown/) — Jekyll이 마크다운을 HTML로 바꿀 때 쓰는 기본 변환 엔진
+- [2026-06-28](/posts/daily-2026-06-28/) — Quartz와 비교해 Jekyll+Chirpy를 블로그 엔진으로 결정한 일지

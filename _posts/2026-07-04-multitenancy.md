@@ -36,4 +36,4 @@ description: '하나의 소프트웨어·인프라 인스턴스를 여러 고객
 - [온디맨드](/posts/on-demand/) — 공유 인프라를 필요한 만큼 쓰는 SaaS 과금 모델의 배경
 - [고가용성](/posts/high-availability/) — 하나의 인스턴스를 다수가 공유하는 만큼 가용성 확보가 중요해진다
 - [마이크로서비스 아키텍처](/posts/microservices-architecture/) — 여러 고객을 한 시스템에서 다루는 것(멀티테넌시)과 기능을 여러 서비스로 나누는 것(마이크로서비스)은 서로 다른 축의 아키텍처 관점이다
-- [사전강의 - AWS Cloud Practitioner Essentials](/posts/aws-cloud-practitioner-essentials/)
+- [사전강의 - AWS Cloud Practitioner Essentials](/posts/aws-cloud-practitioner-essentials/) — 멀티테넌시 개념이 처음 등장한 강의 정리 노트

@@ -97,10 +97,10 @@ EC2는 [멀티테넌시](/posts/multitenancy/) 서비스다. 같은 하드웨어
 - [내결함성](/posts/fault-tolerance/) — 여러 지역·데이터 센터 복제로 장애를 흡수하는 설계 성질
 - [멀티테넌시](/posts/multitenancy/) — 한 물리 하드웨어 위에서 여러 인스턴스가 함께 도는 EC2의 공유 구조
 - [하이퍼바이저](/posts/hypervisor/) — 그 공유를 가능하게 EC2 인스턴스들을 격리·관리하는 소프트웨어 계층
-- [Amazon EC2 Auto Scaling](/posts/amazon-ec2-auto-scaling/) — 실시간 수요에 맞춰 인스턴스를 자동으로 늘렸다 줄이는 탄력성 서비스
+- [Amazon-EC2-Auto-Scaling](/posts/amazon-ec2-auto-scaling/) — 실시간 수요에 맞춰 인스턴스를 자동으로 늘렸다 줄이는 탄력성 서비스
 - [Amazon CloudWatch](/posts/amazon-cloudwatch/) — Auto Scaling이 "언제 늘리고 줄일지" 판단하도록 지표를 감시·알람하는 짝
 - [모놀리스 애플리케이션](/posts/monolithic-application/) — SQS/SNS로 결합을 느슨하게 하기 전, 통째로 묶인 아키텍처
 - [마이크로서비스 아키텍처](/posts/microservices-architecture/) — 느슨한 결합으로 나아간, 기능별로 쪼갠 반대편 아키텍처
-- [Machine Learning Engineering on AWS](/posts/machine-learning-engineering-on-aws/) — 같은 SWM AI Infra 교육에서 이어지는 SageMaker 기반 ML 파이프라인 강의
+- Machine Learning Engineering on AWS — 같은 SWM AI Infra 교육에서 이어지는 SageMaker 기반 ML 파이프라인 강의
 - Developing Generative AI Applications on AWS — 같은 교육의 생성형 AI·Bedrock 중심 후속 강의
 - [AI Infra 교육 정리본](/posts/ai-infra-training/) — 이 사전강의를 포함한 SWM AI Infra 교육 5일 전체 정리본

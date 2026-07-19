@@ -3,7 +3,7 @@ title: 'firecrawl/open-lovable — 어떤 웹사이트든 몇 초 만에 모던 
 date: 2026-07-14 14:32:46 +0900
 categories: [개발, 도구]
 tags: [firecrawl, react, ai, open-source, nextjs, sandbox, llm]
-description: 'Firecrawl 팀이 만든, AI와 채팅하며 어떤 웹사이트든 몇 초 만에 React 앱으로 복제하는 오픈소스 예제 앱 Open Lovable 정리.'
+description: 'AI와 채팅하며 어떤 웹사이트든 몇 초 만에 모던 React 앱으로 복제·재현하는 Firecrawl 팀의 오픈소스 예제 앱 Open Lovable 소개.'
 ---
 **Open Lovable**은 AI와 채팅하며 React 앱을 즉시 만들어 주는 오픈소스 예제 앱이다. [Firecrawl](https://firecrawl.dev/?ref=open-lovable-github) 팀이 만들었으며, 어떤 웹사이트든 몇 초 만에 모던 React 앱으로 복제·재현하는 것을 내세운다. 완전한 클라우드 솔루션이 필요하면 [Lovable.dev](https://lovable.dev/)를 참고하라고 안내한다. 라이선스는 MIT.
 

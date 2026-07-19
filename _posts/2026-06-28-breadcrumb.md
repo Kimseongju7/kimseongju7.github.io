@@ -36,7 +36,8 @@ Home  >  학습  >  용어
 여기서 `Home` 과 `학습`, `용어` 는 클릭 가능한 링크(해당 분류 목록으로 이동)이고, 맨 끝의 현재 글 제목은 보통 링크 없는 텍스트로 남는다.
 
 ## 관련
-- [Jekyll·Chirpy](/posts/jekyll-chirpy/)
-- [슬러그](/posts/slug/)
+- [Jekyll·Chirpy](/posts/jekyll-chirpy/) — 브레드크럼을 자동으로 렌더링해 주는 이 블로그의 테마
+- [슬러그](/posts/slug/) — 같은 Jekyll/Chirpy front matter가 결정하는 짝 개념(URL 이름)
 - [히어로](/posts/hero/) — 같은 웹 UI/UX 요소로, 페이지 상단 첫인상을 담당하는 화면 영역
 - [SEO](/posts/seo/) — 브레드크럼이 검색 결과에 사이트 구조를 드러내는 방식으로 기여하는 검색엔진 최적화 요소
+- [2026-06-28 일지](/posts/daily-2026-06-28/) — 글허브 와이어프레임에서 브레드크럼 표현을 처음 언급한 일지

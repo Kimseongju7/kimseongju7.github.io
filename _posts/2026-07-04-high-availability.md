@@ -26,7 +26,7 @@ description: '장애가 나더라도 시스템이 멈추지 않고 계속 정상
 
 ## 관련
 - [내결함성](/posts/fault-tolerance/) — "장애가 나도 안 멈추게" 만드는 구현 성질로, 고가용성을 달성하는 대표 수단(더 강하고 비싼 목표)
-- [Amazon EC2 Auto Scaling](/posts/amazon-ec2-auto-scaling/) — 죽은 인스턴스를 교체하고 부하에 맞춰 확장해 가용성을 유지하는 수단
-- [사전강의 - AWS Cloud Practitioner Essentials](/posts/aws-cloud-practitioner-essentials/)
-- [프로비저닝](/posts/provisioning/)
-- [온디맨드](/posts/on-demand/)
+- [Amazon-EC2-Auto-Scaling](/posts/amazon-ec2-auto-scaling/) — 죽은 인스턴스를 교체하고 부하에 맞춰 확장해 가용성을 유지하는 수단
+- [사전강의 - AWS Cloud Practitioner Essentials](/posts/aws-cloud-practitioner-essentials/) — 고가용성 개념이 처음 등장한 강의 정리 노트
+- [프로비저닝](/posts/provisioning/) — 장애 대비용 여유 자원을 미리 준비하는 과정으로, 고가용성 구현의 기반이 된다
+- [온디맨드](/posts/on-demand/) — 부하에 맞춰 자원을 즉시 확보해 가용성을 유지하는 운영 방식
