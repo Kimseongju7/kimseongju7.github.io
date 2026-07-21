@@ -76,9 +76,9 @@ description: 'Claude Code를 구직 도우미로 바꿔 채용 공고 평가, CV
 
 ## 관련 노트
 
-- [Claude Managed Agents — 멀티 에이전트 세션](/posts/claude-code-multi-agent-sessions/) — 드래프터-리뷰어 워크플로처럼 새 컨텍스트로 스폰된 별도 Claude 에이전트가 결과를 비평하는 멀티 에이전트 구조와 맞닿음
-- [claude-data-analysis — Claude Code로 만드는 데이터 분석 AI 에이전트](/posts/claude-data-analysis/) — 슬래시 커맨드로 구성된 Claude Code 서브에이전트 기반 워크플로라는 점에서 유사한 구조
-- [alirezarezvani/claude-skills — 13개 코딩 에이전트용 345+ 스킬·플러그인 라이브러리](/posts/alirezarezvani-claude-skills/) — `.agents/skills` 폴더 구조로 채용 검색 CLI 스킬을 조합하는 유사 스킬 생태계
+- [claude-code-multi-agent-sessions](/posts/claude-code-multi-agent-sessions/) — 드래프터-리뷰어 워크플로처럼 새 컨텍스트로 스폰된 별도 Claude 에이전트가 결과를 비평하는 멀티 에이전트 구조와 맞닿음
+- [claude-data-analysis](/posts/claude-data-analysis/) — 슬래시 커맨드로 구성된 Claude Code 서브에이전트 기반 워크플로라는 점에서 유사한 구조
+- [alirezarezvani-claude-skills](/posts/alirezarezvani-claude-skills/) — `.agents/skills` 폴더 구조로 채용 검색 CLI 스킬을 조합하는 유사 스킬 생태계
 
 > 원문: [MadsLorentzen/ai-job-search: The job search that runs on your machine.](https://github.com/MadsLorentzen/ai-job-search)
 > 원본 클립: 2026-07-14-MadsLorentzenai-job-search The job search that runs on your machine. AI job application framework built on Claude Code evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.
