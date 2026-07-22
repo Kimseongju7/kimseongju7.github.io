@@ -51,3 +51,4 @@ function App() {
 - [DOM](/posts/dom/) — 컴포넌트가 다시 그려질 때 실제로 갱신되는 대상
 - [JS번들](/posts/js-bundle/) — 컴포넌트 코드들이 묶여 브라우저로 전달되는 결과물
 - [Virtual DOM](/posts/virtual-dom/) — 컴포넌트 state가 바뀔 때 실제 DOM 대신 먼저 갱신을 계산하는 대상
+- [메타프레임워크](/posts/meta-framework/) — 컴포넌트(뷰) 라이브러리 위에 라우팅·렌더링 같은 앱 뼈대를 얹어 주는 상위 프레임워크

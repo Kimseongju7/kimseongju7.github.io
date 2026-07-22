@@ -107,6 +107,7 @@ OMP_NUM_THREADS=1 torchrun --standalone --nproc_per_node=8 -m scripts.base_train
 - [cs336-llm-course-value](/posts/cs336-llm-course-value/) — "직접 LLM을 손으로 만든다"는 목표를 강의로 다루는 CS336
 - [cs336-study-advice](/posts/cs336-study-advice/) — 같은 CS336을 추천하며 밑바닥 구현을 강조하는 학습 조언
 - [ilya-sutskever-reading-list](/posts/ilya-sutskever-reading-list/) — 사전학습·트랜스포머를 깊게 이해하기 위한 딥러닝 읽기 목록
+- [도대체 루프가 뭔데?](/posts/what-is-a-loop-anyway/) — 리더보드 개선에 쓰인 카파시의 autoresearch(시스템 루프) 개념을 다루는 글
 
 > 원문: [karpathy/nanochat: The best ChatGPT that $100 can buy.](https://github.com/karpathy/nanochat)
 > 원본 클립: 2026-07-14-karpathynanochat The best ChatGPT that $100 can buy.

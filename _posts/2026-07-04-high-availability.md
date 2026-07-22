@@ -30,3 +30,5 @@ description: '장애가 나더라도 시스템이 멈추지 않고 계속 정상
 - [사전강의 - AWS Cloud Practitioner Essentials](/posts/aws-cloud-practitioner-essentials/) — 고가용성 개념이 처음 등장한 강의 정리 노트
 - [프로비저닝](/posts/provisioning/) — 장애 대비용 여유 자원을 미리 준비하는 과정으로, 고가용성 구현의 기반이 된다
 - [온디맨드](/posts/on-demand/) — 부하에 맞춰 자원을 즉시 확보해 가용성을 유지하는 운영 방식
+- [블루그린배포](/posts/blue-green-deployment/) — 트래픽을 한 번에 전환해 배포 중에도 다운타임 없이 가용성을 지키는 배포 전략
+- [롤링배포](/posts/rolling-deployment/) — 인스턴스를 순차 교체해 배포 중에도 서비스가 끊기지 않게 하는 배포 전략

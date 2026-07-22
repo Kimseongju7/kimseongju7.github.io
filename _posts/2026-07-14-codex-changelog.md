@@ -43,7 +43,7 @@ Codex가 macOS·Windows용 ChatGPT 데스크톱 앱의 일부가 됐다. 기존 
 
 ## Codex Remote 정식 출시(GA, 2026-06-25)
 
-ChatGPT 모바일 앱에서 연결된 Mac·Windows 호스트의 작업을 시작·계속하고, 진행 상황을 검토하고, 승인 요청을 폰에서 처리할 수 있다. Remote Control은 이제 iOS/Android 기기와 호스트 간 인증된 1:1 QR 페어링을 사용한다(2026년 6월 8일 이후 사용된 연결은 유지, 그 이전의 비활성 연결은 재페어링 필요). 새 DigitalOcean 플러그인으로 Codex가 Droplet을 프로비저닝하고 SSH를 구성해 원격 워크스페이스로 연결할 수 있다.
+ChatGPT 모바일 앱에서 연결된 Mac·Windows 호스트의 작업을 시작·계속하고, 진행 상황을 검토하고, 승인 요청을 폰에서 처리할 수 있다. Remote Control은 이제 iOS/Android 기기와 호스트 간 인증된 1:1 QR 페어링을 사용한다(2026년 6월 8일 이후 사용된 연결은 유지, 그 이전의 비활성 연결은 재페어링 필요). 새 DigitalOcean 플러그인으로 Codex가 Droplet을 [프로비저닝](/posts/provisioning/)하고 SSH를 구성해 원격 워크스페이스로 연결할 수 있다.
 
 ## Codex CLI 0.142.x (2026-06-22~07-01)
 

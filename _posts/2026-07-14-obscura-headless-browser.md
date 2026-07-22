@@ -60,7 +60,7 @@ Obscura는 Rust로 작성된 오픈소스 헤드리스 브라우저 엔진이다
 - 구현 도메인: Target, Page, Runtime, DOM, Network, Fetch(라이브 인터셉션), IO(청크 스트리밍), Storage, Input, 그리고 DOM→Markdown 변환용 `LP.getMarkdown`.
 - 대용량 응답은 `Fetch.takeResponseBodyAsStream` + `IO.read`/`IO.close`로 청크 스트리밍. 캐시 한도(`OBSCURA_NETWORK_BODY_BUFFER_BYTES`, 기본 2MiB) 초과 바디는 보존되지 않으므로 대용량 다운로드 시 한도를 올릴 것.
 - V8 튜닝: `--v8-flags "--max-old-space-size=4096"`처럼 V8 플래그를 그대로 전달(주로 JS 힙 부족 해결).
-- 무거운 SPA: 스크립트 실행 예산 기본 30초. 느린 네트워크의 대형 React/Vue/Angular SPA는 `OBSCURA_SCRIPT_DEADLINE_MS=60000`처럼 예산을 올리고 CDP 클라이언트의 내비게이션 타임아웃도 맞춰준다.
+- 무거운 [SPA](/posts/spa/): 스크립트 실행 예산 기본 30초. 느린 네트워크의 대형 React/Vue/Angular SPA는 `OBSCURA_SCRIPT_DEADLINE_MS=60000`처럼 예산을 올리고 CDP 클라이언트의 내비게이션 타임아웃도 맞춰준다.
 
 ## MCP 서버
 

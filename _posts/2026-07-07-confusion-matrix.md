@@ -47,6 +47,7 @@ confusion_matrix(y_true, y_pred)
 
 ## 관련
 
-- [Machine Learning Engineering on AWS](/posts/machine-learning-engineering-on-aws/) — Module 7 모델 평가에서 혼돈행렬을 다룬 강의 정리 노트
+- Machine Learning Engineering on AWS — Module 7 모델 평가에서 혼돈행렬을 다룬 강의 정리 노트
 - [ROC](/posts/roc/) — 임계값을 고정해 한 시점을 보는 혼돈행렬과 달리, 임계값 전 구간을 훑어 TPR·FPR 관계를 그리는 평가 방법
 - [Ground Truth](/posts/ground-truth/) — 혼돈행렬의 네 칸(TP/TN/FP/FN)을 나누는 기준이 되는 정답 데이터
+- [열지도](/posts/heatmap/) — 혼돈행렬을 색으로 입혀 한눈에 보이게 시각화하는 기법

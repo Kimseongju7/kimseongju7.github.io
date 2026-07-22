@@ -5,7 +5,7 @@ categories: [개발, 도구]
 tags: [claude-code, skills, ai-agent, tdd, code-review, matt-pocock, ddd]
 description: 'Matt Pocock이 자신의 .claude 디렉터리에서 매일 실제 엔지니어링에 쓰는 에이전트 스킬들을 공개한 저장소다. 작고 수정하기 쉽고 조합 가능한 스킬로 제어권을 사용자에게 남기는 것이 철학이다.'
 ---
-Matt Pocock이 자신의 `.claude` 디렉터리에서 매일 실제 엔지니어링에 쓰는 에이전트 스킬들을 공개한 저장소다. GSD·BMAD·Spec-Kit처럼 프로세스를 통째로 소유하는 접근과 달리, 작고 수정하기 쉽고 조합 가능한 스킬로 제어권을 사용자에게 남기는 것이 철학이다.
+Matt Pocock이 자신의 `.claude` 디렉터리에서 매일 실제 엔지니어링에 쓰는 에이전트 스킬들을 공개한 저장소다. GSD·[BMAD](/posts/bmad-method/)·Spec-Kit처럼 프로세스를 통째로 소유하는 접근과 달리, 작고 수정하기 쉽고 조합 가능한 스킬로 제어권을 사용자에게 남기는 것이 철학이다.
 
 ## 철학
 
@@ -97,6 +97,7 @@ npx skills@latest add mattpocock/skills
 - [codex-top-6-skills](/posts/codex-top-6-skills/) — Codex 에이전트를 확장하는 대표 스킬 6선
 - [alirezarezvani-claude-skills](/posts/alirezarezvani-claude-skills/) — 또 다른 Claude 스킬 모음
 - [ouroboros-agent-os](/posts/ouroboros-agent-os/) — 그릴링/인터뷰로 스펙을 결정화하는 명세 우선 접근
+- [BMAD-METHOD](/posts/bmad-method/) — 프로세스를 통째로 소유하는 대비 접근으로 본문에서 비교되는 프레임워크
 
 > 원문: [mattpocock/skills: Skills for Real Engineers. Straight from my .claude directory.](https://github.com/mattpocock/skills)
 > 원본 클립: 2026-07-14-mattpocockskills Skills for Real Engineers. Straight from my .claude directory.

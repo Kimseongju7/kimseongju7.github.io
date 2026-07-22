@@ -65,6 +65,7 @@ LangChain이 말하는 "[루프 엔지니어링](/posts/loop-engineering/)"은, 
 - [what-is-a-loop-anyway](/posts/what-is-a-loop-anyway/) — 이 글(The Art of Loop Engineering)을 포함해 "루프"라는 단어의 네 가지 아키텍처를 지도로 정리
 - [getting-started-with-loops](/posts/getting-started-with-loops/) — Claude Code 팀이 정의하는 4가지 루프로 같은 개념을 실천편으로 풀이
 - [learn-claude-code-bash-is-all-you-need](/posts/learn-claude-code-bash-is-all-you-need/) — 에이전트 루프를 감싸는 하네스를 0부터 구현하는 튜토리얼
+- [bytedance-deer-flow](/posts/bytedance-deer-flow/) — LangChain·LangGraph 위에 구축된 슈퍼 에이전트 하네스로, 루프를 겹겹이 감싸는 하네스 설계의 실제 사례
 
 > 원문: [The Art of Loop Engineering](https://www.langchain.com/blog/the-art-of-loop-engineering)
 > 원본 클립: 2026-07-14-The Art of Loop Engineering

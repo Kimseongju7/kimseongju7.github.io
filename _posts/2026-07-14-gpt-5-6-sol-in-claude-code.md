@@ -92,6 +92,7 @@ Claude Code에 이 글을 던지면 절차 자체는 몇 분이면 끝난다.
 - [openai-codex-plugin-cc](/posts/openai-codex-plugin-cc/) — 루트 A에서 쓰는 공식 codex-plugin-cc의 명령·설치 상세
 - [claude-code-model-and-effort](/posts/claude-code-model-and-effort/) — subagent 모델·effort(사고 깊이)를 고정한다는 이 글의 핵심 축
 - [prompting-claude-fable-5](/posts/prompting-claude-fable-5/) — Fable을 지휘역으로 두는 편성 이야기와 이어지는 Fable 프롬프팅
+- [harness-engineering-codex](/posts/harness-engineering-codex/) — "모델이 아니라 하니스가 성능을 가른다"는 이 글의 주장을 OpenAI의 실험으로 뒷받침하는 하네스 엔지니어링 글
 
 > 원문: [【コピペでOK】ClaudeCodeの中でGPT-5.6 Solを動かす方法](https://x.com/chizevsm5/status/2076596525262876890)
 > 원본 클립: 2026-07-14-【コピペでOK】ClaudeCodeの中でGPT-5.6 Solを動かす方法

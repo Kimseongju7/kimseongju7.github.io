@@ -102,6 +102,7 @@ ohmo gateway start    # 게이트웨이 시작 — 채팅 앱에서 ohmo 가동
 - [ouroboros-agent-os](/posts/ouroboros-agent-os/) — 명세 우선 워크플로를 얹은 Agent OS
 - [learn-claude-code-bash-is-all-you-need](/posts/learn-claude-code-bash-is-all-you-need/) — 최소 나노 에이전트 하네스 관점
 - [headroom-context-compression](/posts/headroom-context-compression/) — Auto-Compact와 맞닿은 컨텍스트 압축 레이어
+- [harness-engineering-codex](/posts/harness-engineering-codex/) — 하네스가 에이전트의 환경·피드백 루프를 만든다는 하네스 엔지니어링 관점의 원전 격 글
 
 > 원문: [HKUDS/OpenHarness: "OpenHarness: Open Agent Harness with a Built-in Personal Agent--Ohmo!"](https://github.com/HKUDS/OpenHarness)
 > 원본 클립: 2026-07-14-HKUDSOpenHarness "OpenHarness Open Agent Harness with a Built-in Personal Agent--Ohmo!"

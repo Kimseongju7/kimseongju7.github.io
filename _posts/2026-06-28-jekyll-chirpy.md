@@ -43,3 +43,6 @@ publish: true
 - [브레드크럼](/posts/breadcrumb/) — categories를 2단계로 쓰라는 Chirpy 규칙이 만들어 주는 경로 내비게이션
 - [kramdown](/posts/kramdown/) — Jekyll이 마크다운을 HTML로 바꿀 때 쓰는 기본 변환 엔진
 - [2026-06-28](/posts/daily-2026-06-28/) — Quartz와 비교해 Jekyll+Chirpy를 블로그 엔진으로 결정한 일지
+- [SEO](/posts/seo/) — front matter만 성실히 채우면 메타 태그·sitemap.xml이 자동 생성되어 SEO 기본이 갖춰지는 관계
+- [SSR](/posts/ssr/) — Jekyll의 SSG(빌드 시점 렌더링)와 비교되는, 요청 시점에 서버가 HTML을 그리는 렌더링 방식
+- [MPA](/posts/mpa/) — 방문자 입장에서 이 블로그가 페이지마다 별도 HTML을 받는 방식으로 동작하는 구조

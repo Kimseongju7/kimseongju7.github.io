@@ -89,6 +89,7 @@ OpenAI 팀이 5개월간 **사람이 코드를 한 줄도 직접 쓰지 않고**
 - [gpt-5-6-sol-in-claude-code](/posts/gpt-5-6-sol-in-claude-code/) — Claude Code에서의 GPT/Codex 계열 활용
 - [openobserve](/posts/openobserve/) — 워크트리별 로컬 관측 스택과 통하는 관측성 도구
 - [learn-claude-code-bash-is-all-you-need](/posts/learn-claude-code-bash-is-all-you-need/) — 최소 에이전트 하네스 설계
+- [hkuds-openharness](/posts/hkuds-openharness/) — Agent Harness 개념(손·눈·기억·안전 경계)을 오픈소스로 구현한 프로젝트
 
 > 원문: [하네스 엔지니어링: 에이전트 우선 세계에서 Codex 활용하기](https://openai.com/ko-KR/index/harness-engineering/)
 > 원본 클립: 2026-07-14-하네스 엔지니어링 에이전트 우선 세계에서 Codex 활용하기
