@@ -33,7 +33,7 @@ Claude Code 스킬(에이전트 스킬, 코딩 에이전트 플러그인)은 AI 
 - **엔지니어링 — 핵심 (52)**: 아키텍처, 프론트/백엔드/풀스택, QA, DevOps, SecOps, AI/ML, 데이터, Playwright Pro, 자기개선 에이전트(auto-memory curation), 보안 스위트, 접근성 감사, 유명 엔지니어링 철학 기반의 적대적 리뷰(named-persona-adversarial-review)
 - **엔지니어링 — POWERFUL (81)**: 에이전트 디자이너, RAG 아키텍트, DB 디자이너, CI/CD 빌더, 보안 감사, MCP 빌더, Helm/Terraform, 신뢰성 포트폴리오(feature flags, Kubernetes operator, 카오스 엔지니어링, SLO), [Matt Pocock 스킬](/posts/mattpocock-skills/), zero-hallucination-coder(Discuss→Map→Decompose→Execute→Verify), agent-harness 등
 - **프로덕트 (17)**: PM, 애자일 PO, UX 리서처, UI 디자인, 랜딩 페이지, SaaS 스캐폴더, code-to-prd, apple-hig-expert 등
-- **마케팅 (48)**: 콘텐츠, SEO + AEO(Answer Engine Optimization — LLM 인용 최적화, 5개 LLM에 걸친 인용 추적), 로컬 SEO, CRO, 채널, 그로스, 인텔리전스, 세일즈의 8개 포드
+- **마케팅 (48)**: 콘텐츠, [SEO](/posts/seo/) + AEO(Answer Engine Optimization — LLM 인용 최적화, 5개 LLM에 걸친 인용 추적), 로컬 SEO, CRO, 채널, 그로스, 인텔리전스, 세일즈의 8개 포드
 - **생산성 (7)**: capture(브레인덤프→액션), email 페어, reflect(저널), handoff, andreessen, roast(5각도 아이디어 패널 → GO/RESHAPE/KILL)
 - **학술 연구 (9)**: research 오케스트레이터 + litreview, grants(NIH), dossier, patent, syllabus, notebooklm, deep-research 등 8개 전문 스킬
 - **Research Operations (5, v2.9.0)**: 엔터프라이즈용 — clinical-research, research-finance, market-research, product-research
@@ -41,7 +41,7 @@ Claude Code 스킬(에이전트 스킬, 코딩 에이전트 플러그인)은 AI 
 
 ## 페르소나와 오케스트레이션
 
-큐레이션된 스킬 로드아웃과 소통 스타일을 가진 사전 구성 에이전트 정체성으로 **Startup CTO**(아키텍처 결정, 기술 스택 선정), **Growth Marketer**(콘텐츠 주도 성장, 론칭 전략), **Solo Founder**(1인 스타트업, MVP)가 있다.
+큐레이션된 스킬 로드아웃과 소통 스타일을 가진 사전 구성 에이전트 정체성으로 **Startup CTO**(아키텍처 결정, 기술 스택 선정), **Growth Marketer**(콘텐츠 주도 성장, 론칭 전략), **Solo Founder**(1인 스타트업, [MVP](/posts/mvp/))가 있다.
 
 프레임워크 없이 페르소나·스킬·에이전트를 조율하는 경량 오케스트레이션 프로토콜은 4가지 패턴을 제시한다.
 

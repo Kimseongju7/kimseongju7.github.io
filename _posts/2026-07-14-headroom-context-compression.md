@@ -120,6 +120,7 @@ OSS는 개인 개발자용이고, 조직 단위 운영(상시 공유 배포, 중
 - [bytedance-deer-flow](/posts/bytedance-deer-flow/) — 요약·컴팩션으로 컨텍스트 윈도를 관리하는 슈퍼 에이전트 하네스
 - [hkuds-openharness](/posts/hkuds-openharness/) — Auto-Compact로 멀티데이 세션 컨텍스트를 압축하는 하네스
 - [claude-real-video](/posts/claude-real-video/) — 더 적고 의미 있는 프레임으로 컨텍스트 비용을 낮추는 영상 도구
+- [claude-code-model-and-effort](/posts/claude-code-model-and-effort/) — Headroom의 Effort routing이 조절하는 사고 깊이(effort) 개념을 다루는 글
 
 > 원문: [headroomlabs-ai/headroom: Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.](https://github.com/headroomlabs-ai/headroom)
 > 원본 클립: 2026-07-14-headroomlabs-aiheadroom Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.

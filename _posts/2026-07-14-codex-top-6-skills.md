@@ -33,6 +33,7 @@ X(트위터)의 Kyrie(@KyrieCheungYep)가 정리한 "Codex 공인 최강의 6개
 - [openai-codex-plugin-cc](/posts/openai-codex-plugin-cc/) — Codex용 OpenAI 공식 플러그인
 - [harness-engineering-codex](/posts/harness-engineering-codex/) — Codex 하네스 엔지니어링
 - [mattpocock-skills](/posts/mattpocock-skills/) — 작고 조합 가능한 엔지니어링 스킬 모음
+- [code-review-graph](/posts/code-review-graph/) — GitNexus처럼 코드 그래프로 AI 도구의 레거시 코드베이스 이해를 돕는 유사 접근의 도구
 
 > 원문: [X에서 Kyrie 님: "Codex 公认最强的 6个 Skill，有没有你没装的…"](https://x.com/KyrieCheungYep/status/2068306688651018272)
 > 원본 클립: 2026-07-14-X에서 Kyrie 님  "Codex 公认最强的 6个 Skill，有没有你没装的1、Superpowers（227k star）给 Agent 装上一整套资深工程师的工作方法：先拆需求，再写计划，按测试驱动开发，最后再

@@ -31,5 +31,7 @@ description: '필요한 IT 자원(서버·스토리지·네트워크 등)을 요
 ## 관련
 - [온디맨드](/posts/on-demand/) — 프로비저닝으로 확보한 자원을 "필요할 때 쓴 만큼만" 과금하는 방식(같은 종량제 커피숍 비유)
 - [온프레미스](/posts/on-premises/) — 자원을 미리 사둬 즉시 프로비저닝이 어려운, 클라우드와 대비되는 환경
-- [Auto Scaling](/posts/amazon-ec2-auto-scaling/) — 수요에 맞춰 프로비저닝·해제를 자동으로 반복하는 대표 사례
+- [Amazon-EC2-Auto-Scaling](/posts/amazon-ec2-auto-scaling/) — 수요에 맞춰 프로비저닝·해제를 자동으로 반복하는 대표 사례
+- [서버리스](/posts/serverless/) — 프로비저닝 책임을 클라우드 제공자가 전부 대신 맡는 실행 모델
+- [하이퍼바이저](/posts/hypervisor/) — 프로비저닝할 가상 머신 자원을 물리 하드웨어에서 쪼개 주는 가상화 계층
 - [사전강의 - AWS Cloud Practitioner Essentials](/posts/aws-cloud-practitioner-essentials/) — 프로비저닝 개념이 처음 등장한 강의 정리 노트
