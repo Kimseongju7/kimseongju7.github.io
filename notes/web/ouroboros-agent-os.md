@@ -120,6 +120,7 @@ Python 3.12+ 기준 `src/ouroboros/`는 bigbang(인터뷰·모호성 채점·bro
 - [[hkuds-openharness]] — 또 다른 오픈 에이전트 하네스(Agent Harness) 인프라
 - [[bytedance-deer-flow]] — 서브에이전트·샌드박스를 조율하는 슈퍼 에이전트 하네스
 - [[mattpocock-skills]] — 그릴링/스펙 우선(to-spec)으로 요구를 결정화하는 스킬 접근
+- [[what-is-a-loop-anyway]] — `ooo ralph`가 구현하는 태스크 루프(Ralph Loop) 개념을 지도로 정리한 글
 
 > 원문: [Q00/ouroboros: Agent OS: Stop prompting. Start specifying.](https://github.com/Q00/ouroboros)
 > 원본 클립: [[2026-07-14-Q00ouroboros Agent OS Stop prompting. Start specifying.]]

@@ -2,7 +2,7 @@
 title: "Claude Fable 5 프롬프팅 가이드"
 date: 2026-07-14 14:15:40 +0900
 categories: [개발, AI]
-tags: [claude, prompt-engineering, fable-5, anthropic, agents, llm]
+tags: [claude, prompt-engineering, fable-5, anthropic, ai-agent, llm]
 slug: prompting-claude-fable-5
 publish: true
 ---

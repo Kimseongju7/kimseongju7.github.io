@@ -2,7 +2,7 @@
 title: "Claude Code, 아티팩트(artifacts) 지원 시작"
 date: 2026-07-14 14:37:33 +0900
 categories: [개발, 도구]
-tags: [claude-code, artifacts, anthropic, collaboration, ai-agents]
+tags: [claude-code, artifacts, anthropic, collaboration, ai-agent]
 slug: claude-code-artifacts
 publish: true
 ---

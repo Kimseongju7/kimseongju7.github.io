@@ -2,7 +2,7 @@
 title: "인터넷 전체를 스크래핑하기 위한 GitHub 저장소 10선"
 date: 2026-07-14 14:32:26 +0900
 categories: [개발, 도구]
-tags: [scraping, crawler, github, opensource, firecrawl, scrapy, browser-automation]
+tags: [scraping, crawler, github, open-source, firecrawl, scrapy, browser-automation]
 slug: github-scraping-repos
 publish: true
 ---

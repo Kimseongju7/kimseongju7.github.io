@@ -2,7 +2,7 @@
 title: "BMAD-METHOD — 애자일 AI 주도 개발(Agile AI Driven Development) 프레임워크"
 date: 2026-07-14 14:35:43 +0900
 categories: [개발, 도구]
-tags: [bmad, agile, ai-agents, workflow, claude-code, open-source]
+tags: [bmad, agile, ai-agent, workflow, claude-code, open-source]
 slug: bmad-method
 publish: true
 ---

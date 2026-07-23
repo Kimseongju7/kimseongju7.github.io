@@ -2,7 +2,7 @@
 title: Loop Engineering
 date: 2026-07-01 01:02:00 +0900
 categories: [학습, 용어]
-tags: [ai, agent, llm, claude-code, loop-engineering, 자동화]
+tags: [ai, ai-agent, llm, claude-code, loop-engineering, 자동화]
 publish: true
 ---
 ## 한 줄 정의

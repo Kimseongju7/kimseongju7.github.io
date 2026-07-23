@@ -2,7 +2,7 @@
 title: "bytedance/deer-flow — 리서치·코딩·창작을 수행하는 오픈소스 슈퍼 에이전트 하네스 DeerFlow 2.0"
 date: 2026-07-14 14:12:42 +0900
 categories: [개발, 도구]
-tags: [agents, harness, langgraph, langchain, sandbox, mcp, skills, deep-research, bytedance]
+tags: [ai-agent, harness, langgraph, langchain, sandbox, mcp, skills, deep-research, bytedance]
 slug: bytedance-deer-flow
 publish: true
 ---

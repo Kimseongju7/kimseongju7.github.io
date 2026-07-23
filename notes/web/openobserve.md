@@ -2,7 +2,7 @@
 title: "OpenObserve — Datadog·Splunk·Elasticsearch를 대체하는 오픈소스 관측성 플랫폼"
 date: 2026-07-14 14:25:22 +0900
 categories: [개발, 도구]
-tags: [observability, opensource, rust, logs, metrics, tracing, opentelemetry, datadog, elasticsearch]
+tags: [observability, open-source, rust, logs, metrics, tracing, opentelemetry, datadog, elasticsearch]
 slug: openobserve
 publish: true
 ---

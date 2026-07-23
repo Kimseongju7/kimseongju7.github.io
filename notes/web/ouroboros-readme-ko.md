@@ -2,7 +2,7 @@
 title: "Ouroboros 한국어 README — 명세 우선 AI 개발 시스템 (한국어판 고유 내용)"
 date: 2026-07-14 14:21:25 +0900
 categories: [개발, 도구]
-tags: [ouroboros, spec-first, claude-code, tui, workflow, agent]
+tags: [ouroboros, spec-first, claude-code, tui, workflow, ai-agent]
 slug: ouroboros-readme-ko
 publish: true
 ---

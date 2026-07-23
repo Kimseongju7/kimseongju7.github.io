@@ -2,7 +2,7 @@
 title: React Doctor
 date: 2026-07-01 01:05:00 +0900
 categories: [학습, 용어]
-tags: [react, ai, agent, linter, oxlint, 코드품질, frontend]
+tags: [react, ai, ai-agent, linter, oxlint, 코드품질, frontend]
 publish: true
 ---
 ## 한 줄 정의

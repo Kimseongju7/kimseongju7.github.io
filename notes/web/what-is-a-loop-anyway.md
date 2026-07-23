@@ -2,7 +2,7 @@
 title: "도대체 루프가 뭔데? — 한 단어 뒤에 숨은 네 가지 아키텍처"
 date: 2026-07-14 14:11:54 +0900
 categories: [학습, 아티클]
-tags: [loops, agents, ai, software-factory, autoresearch, loop-engineering]
+tags: [loops, ai-agent, ai, software-factory, autoresearch, loop-engineering]
 slug: what-is-a-loop-anyway
 publish: true
 ---

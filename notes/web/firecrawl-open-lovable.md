@@ -2,7 +2,7 @@
 title: "firecrawl/open-lovable — 어떤 웹사이트든 몇 초 만에 모던 React 앱으로 복제"
 date: 2026-07-14 14:32:46 +0900
 categories: [개발, 도구]
-tags: [firecrawl, react, ai, opensource, nextjs, sandbox, llm]
+tags: [firecrawl, react, ai, open-source, nextjs, sandbox, llm]
 slug: firecrawl-open-lovable
 publish: true
 ---

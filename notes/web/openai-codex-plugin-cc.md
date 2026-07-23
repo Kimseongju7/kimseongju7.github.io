@@ -2,7 +2,7 @@
 title: "openai/codex-plugin-cc — Claude Code 안에서 Codex를 쓰는 공식 플러그인"
 date: 2026-07-14 14:18:06 +0900
 categories: [개발, 도구]
-tags: [codex, claude-code, plugin, code-review, openai, agent]
+tags: [codex, claude-code, plugin, code-review, openai, ai-agent]
 slug: openai-codex-plugin-cc
 publish: true
 ---

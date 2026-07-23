@@ -2,7 +2,7 @@
 title: "shareAI-lab/learn-claude-code — Bash만 있으면 된다: 0부터 만드는 나노 Claude Code 에이전트 하니스"
 date: 2026-07-14 14:03:19 +0900
 categories: [학습, 아티클]
-tags: [agent, harness, claude-code, llm, tutorial, mcp, subagent, open-source]
+tags: [ai-agent, harness, claude-code, llm, tutorial, mcp, subagent, open-source]
 slug: learn-claude-code-bash-is-all-you-need
 publish: true
 ---
@@ -34,7 +34,7 @@ Harness = Tools + Knowledge + Observation + Action Interfaces + Permissions
 ```
 
 - **도구 구현** — 파일 입출력, 셸, API 호출, 브라우저 제어 등. 원자적이고 조합 가능하게, 설명은 명확하게.
-- **지식 큐레이션** — 제품 문서, 아키텍처 결정 기록, 스타일 가이드. 미리 다 넣지 말고 필요할 때 로드.
+- **지식 큐레이션** — 제품 문서, [[결정 기록|아키텍처 결정 기록]], 스타일 가이드. 미리 다 넣지 말고 필요할 때 로드.
 - **컨텍스트 관리** — 서브에이전트 격리로 노이즈 차단, 컴팩션으로 히스토리 정리, 태스크 시스템으로 목표 지속.
 - **권한 통제** — 파일 접근 샌드박스, 파괴적 작업 승인, 신뢰 경계 강제.
 - **궤적 데이터 수집** — 에이전트의 모든 행동 시퀀스는 다음 세대 모델의 파인튜닝 재료다.

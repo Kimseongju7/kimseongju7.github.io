@@ -2,7 +2,7 @@
 title: Machine Learning Engineering on AWS
 date: 2026-07-10
 tags: [aws, 머신러닝, sagemaker, swm, 전처리, 인코딩, mlops, 모델모니터링]
-categories: [학습, aws]
+categories: [학습, AWS]
 publish: false
 ---
 SWM AI Infra 교육 "Machine Learning Engineering on AWS" 강의 정리 노트. AWS SageMaker AI를 축으로 데이터 준비부터 모델 훈련·평가·배포·보안·MLOps·모니터링까지 ML 엔지니어링 전 과정(Module 0~11)을 다룬다.

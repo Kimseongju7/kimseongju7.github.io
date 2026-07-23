@@ -10,7 +10,7 @@ tags:
   - swm
 categories:
   - 학습
-  - aws
+  - AWS
 slug: agentcorewithwebapp-workshop
 publish: false
 ---

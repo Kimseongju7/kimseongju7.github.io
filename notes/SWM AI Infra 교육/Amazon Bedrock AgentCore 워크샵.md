@@ -10,7 +10,7 @@ tags:
   - swm
 categories:
   - 학습
-  - aws
+  - AWS
 slug: agentcore-workshop
 publish: false
 ---
@@ -334,7 +334,7 @@ memories = self.memory_client.retrieve_memories(
 
 **목표**: AgentCore Observability로 Lab 2에서 배포한 에이전트가 요청을 받아 응답을 반환하기까지의 전체 흐름을 추적한다.
 
-사용 사례가 단일 응답을 주는 "AI 어시스턴트"에서 자율적으로 여러 단계를 수행하는 "AI 에이전트"로 발전할수록 관찰 가능성의 중요성이 커진다(Langfuse 같은 전문 오픈소스 솔루션이 등장하는 이유). AgentCore Observability는 Amazon CloudWatch와 원클릭으로 통합되며, 소스 코드 수정 없이 활성화만으로 상세한 추적을 얻을 수 있다. 수집된 텔레메트리는 OpenTelemetry(OTEL) 형식으로 출력돼 CloudWatch 외의 APM·로그 분석 도구와도 연동 가능하다.
+사용 사례가 단일 응답을 주는 "AI 어시스턴트"에서 자율적으로 여러 단계를 수행하는 "AI 에이전트"로 발전할수록 관찰 가능성의 중요성이 커진다(Langfuse 같은 전문 오픈소스 솔루션이 등장하는 이유). AgentCore Observability는 [[Amazon CloudWatch]]와 원클릭으로 통합되며, 소스 코드 수정 없이 활성화만으로 상세한 추적을 얻을 수 있다. 수집된 텔레메트리는 OpenTelemetry(OTEL) 형식으로 출력돼 CloudWatch 외의 APM·로그 분석 도구와도 연동 가능하다.
 
 관찰 가능성은 **Session → Trace → Span** 3계층 구조로 제공된다. **Session**은 사용자-에이전트 간 전체 상호작용(같은 세션 ID로 여러 요청을 보내면 세션은 1개), **Trace**는 세션 내 개별 요청-응답 흐름(타임스탬프·입력·처리 단계·리소스 사용량·오류·최종 응답 포함, 3번 요청하면 Trace 3개), **Span**은 Trace 내 개별 작업(API 호출, 내부 처리 등 계층적 트리 구조)이다. 사전 조건으로 CloudWatch Transaction Search를 활성화해야 하며, 활성화 후에는 CloudWatch GenAI Observability 화면에서 Sessions·Traces·Spans를 드릴다운하며 각 단계의 모델 호출·도구 호출 세부 내용(Events 뷰)이나 처리 흐름 다이어그램(Trajectory 뷰)까지 확인할 수 있다.
 
@@ -834,3 +834,4 @@ uv run python clean_resources.py
 - [[AI Infra 교육 정리본]] — 이 워크샵(5일차)을 포함한 SWM AI Infra 교육 5일 전체 정리본
 - [[서버리스]] — AgentCore Runtime이 채택한, 요청 처리 시에만 과금되는 실행 모델
 - [[온프레미스]] — Lab 9 Browser Use가 대응하는, API가 없는 레거시 온프레미스 시스템
+- [[Amazon CloudWatch]] — Lab 4 Observability의 Session·Trace·Span 추적과 Lab 8 Policy 감사 로그가 기록되는 관측 서비스

@@ -2,7 +2,7 @@
 title: "proxifly/free-proxy-list — 100+개국 HTTPS·SOCKS5 무료 로테이팅 프록시 리스트"
 date: 2026-07-14 14:32:15 +0900
 categories: [개발, 도구]
-tags: [proxy, socks5, https, api, npm, opensource, scraping]
+tags: [proxy, socks5, https, api, npm, open-source, scraping]
 slug: proxifly-free-proxy-list
 publish: true
 ---

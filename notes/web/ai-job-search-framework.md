@@ -2,7 +2,7 @@
 title: "MadsLorentzen/ai-job-search — Claude Code 기반 AI 구직 프레임워크"
 date: 2026-07-14 14:18:23 +0900
 categories: [개발, 도구]
-tags: [claude-code, job-search, cv, latex, agent, workflow, career]
+tags: [claude-code, job-search, cv, latex, ai-agent, workflow, career]
 slug: ai-job-search-framework
 publish: true
 ---
@@ -74,6 +74,12 @@ publish: true
 - **프로필 깊이가 출력 품질의 최대 변수다.** 직함만 나열하지 말고 실제 한 일(프로젝트, 도구, 측정 가능한 성과)을 서술하고, "Python"이 아니라 "scikit-learn으로 고객 이탈 예측 ML 파이프라인 구축"처럼 맥락 있는 스킬을 적어라.
 - 두 가지 탐색 모드를 지원한다: 원하는 역할을 아는 **명시적 타기팅**과, 전체 이력 분석으로 생각지 못한 커리어 경로를 발굴하는 **잠재 기회 발견**. `/setup` 때 무엇이 에너지를 줬고 무엇이 소모적이었는지까지 적으면 적합도 평가에 직접 반영된다.
 - 급여 벤치마킹 도구는 노조 통계, Glassdoor 익스포트 등 직접 준비한 데이터로 동작하며, 데이터가 없으면 그 단계는 건너뛴다.
+
+## 관련 노트
+
+- [[claude-code-multi-agent-sessions]] — 드래프터-리뷰어 워크플로처럼 새 컨텍스트로 스폰된 별도 Claude 에이전트가 결과를 비평하는 멀티 에이전트 구조와 맞닿음
+- [[claude-data-analysis]] — 슬래시 커맨드로 구성된 Claude Code 서브에이전트 기반 워크플로라는 점에서 유사한 구조
+- [[alirezarezvani-claude-skills]] — `.agents/skills` 폴더 구조로 채용 검색 CLI 스킬을 조합하는 유사 스킬 생태계
 
 > 원문: [MadsLorentzen/ai-job-search: The job search that runs on your machine.](https://github.com/MadsLorentzen/ai-job-search)
 > 원본 클립: [[2026-07-14-MadsLorentzenai-job-search The job search that runs on your machine. AI job application framework built on Claude Code evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.]]

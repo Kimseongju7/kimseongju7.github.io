@@ -2,7 +2,7 @@
 title: "사전강의 - AWS Cloud Practitioner Essentials"
 date: 2026-07-04
 tags: [aws, cloud, swm]
-categories: [학습, aws]
+categories: [학습, AWS]
 slug: aws-cloud-practitioner-essentials
 publish: true
 ---

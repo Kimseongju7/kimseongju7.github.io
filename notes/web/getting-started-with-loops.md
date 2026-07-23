@@ -2,7 +2,7 @@
 title: "루프 시작하기 — Claude Code 팀이 정의하는 4가지 루프"
 date: 2026-07-14 14:10:45 +0900
 categories: [학습, 아티클]
-tags: [claude-code, loops, agents, automation, workflow, skills]
+tags: [claude-code, loops, ai-agent, automation, workflow, skills]
 slug: getting-started-with-loops
 publish: true
 ---
