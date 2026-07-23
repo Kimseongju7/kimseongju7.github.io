@@ -19,5 +19,6 @@
     ".devcontainer/",
     ".vscode/",
     "notes/_templates/"
-  ]
+  ],
+  "readableLineLength": false
 }
