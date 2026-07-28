@@ -1,7 +1,7 @@
 ---
 title: 'Machine Learning Engineering on AWS'
 date: 2026-07-06 00:00:00 +0900
-categories: [학습, aws]
+categories: [학습, AWS]
 tags: [aws, 머신러닝, sagemaker, swm, 전처리, 인코딩, eda]
 description: 'SWM AI Infra 교육 "Machine Learning Engineering on AWS" 강의 정리 노트. AWS에서의 ML 개념과 SageMaker AI 파이프라인을 다룬다.'
 ---

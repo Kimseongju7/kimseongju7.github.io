@@ -43,7 +43,7 @@ curl -fsSL https://raw.githubusercontent.com/Q00/ouroboros/main/scripts/install.
 - **pip/uv/pipx**: `pip install ouroboros-ai`에 `[claude]`, `[litellm]`, `[mcp]`, `[tui]`, `[all]` extras. `[dashboard]`는 호환용 no-op alias.
 - **Python 3.12 이상 필요**. 제거는 `ouroboros uninstall`로 설정·MCP 등록·데이터를 전부 지운다.
 
-한 루프를 돌고 나면: Interview가 숨은 가정 12개를 드러내고(모호성 0.19로 채점), Seed가 수용 기준·온톨로지·제약을 가진 불변 명세를 만들고, Run이 Double Diamond 분해로 실행하고, Evaluate가 Mechanical → Semantic → Multi-Model Consensus 3단계로 검증한다.
+한 루프를 돌고 나면: Interview가 숨은 가정 12개를 드러내고(모호성 0.19로 채점), Seed가 수용 기준·[온톨로지](/posts/ontology/)·제약을 가진 불변 명세를 만들고, Run이 Double Diamond 분해로 실행하고, Evaluate가 Mechanical → Semantic → Multi-Model Consensus 3단계로 검증한다.
 
 ## 순환 구조 (The Loop)
 
@@ -116,10 +116,13 @@ Python 3.12+ 기준 `src/ouroboros/`는 bigbang(인터뷰·모호성 채점·bro
 
 ## 관련 노트
 
+- [우로보로스 사용법](/posts/ouroboros-usage/) — 이 도구를 내 환경에서 실제로 굴리는 명령·플래그 정리
+- [결정화](/posts/crystallization/) · [소크라테스 인터뷰](/posts/socratic-interview/) · [온톨로지](/posts/ontology/) · [Seed 스펙](/posts/seed-spec/) · [AC 트리](/posts/ac-tree/) · [PAL 라우팅](/posts/pal-routing/) · [측면 사고](/posts/lateral-thinking/) — 핵심 개념 용어 노트
 - [hkuds-openharness](/posts/hkuds-openharness/) — 또 다른 오픈 에이전트 하네스(Agent Harness) 인프라
 - [bytedance-deer-flow](/posts/bytedance-deer-flow/) — 서브에이전트·샌드박스를 조율하는 슈퍼 에이전트 하네스
 - [mattpocock-skills](/posts/mattpocock-skills/) — 그릴링/스펙 우선(to-spec)으로 요구를 결정화하는 스킬 접근
 - [what-is-a-loop-anyway](/posts/what-is-a-loop-anyway/) — `ooo ralph`가 구현하는 태스크 루프(Ralph Loop) 개념을 지도로 정리한 글
+- [명세 주도 개발(SDD)](/posts/spec-driven-development/) — Ouroboros가 속한 방법론 전체의 지도(워크플로·도구 지형·실패 모드)
 
 > 원문: [Q00/ouroboros: Agent OS: Stop prompting. Start specifying.](https://github.com/Q00/ouroboros)
 > 원본 클립: 2026-07-14-Q00ouroboros Agent OS Stop prompting. Start specifying.

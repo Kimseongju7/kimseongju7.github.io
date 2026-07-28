@@ -1,6 +1,6 @@
 ---
 title: '사전강의 - AWS Cloud Practitioner Essentials'
-date: 2026-07-04 00:00:00 +0900
+date: 2026-07-04 09:00:00 +0900
 categories: [학습, AWS]
 tags: [aws, cloud, swm]
 description: 'AWS Cloud Practitioner Essentials 사전강의 정리. 클라이언트-서버 모델부터 클라우드 컴퓨팅의 개념, AWS의 역사와 장점, 글로벌 인프라, 공동 책임 모델까지의 기본 개념을 다룬다.'
@@ -76,7 +76,7 @@ EC2는 [멀티테넌시](/posts/multitenancy/) 서비스다. 같은 하드웨어
 
 로드 밸런서는 프론트엔드와 백엔드의 결합을 느슨하게 만들기도 한다. 덕분에 인스턴스가 늘어나도 운영 비용이 크게 증가하지 않는다. 만약 로드 밸런서가 없다면 프론트엔드 인스턴스와 백엔드 인스턴스 사이에 N × M 개의 간선이 생길 수밖에 없다.
 
-![로드 밸런서로 프론트엔드·백엔드 결합을 느슨하게 만드는 구조](/assets/img/posts/aws-cloud-practitioner-essentials/load-balancer.png)
+![Pasted image 20260704030653](/assets/img/posts/aws-cloud-practitioner-essentials/Pasted%20image%2020260704030653.png)
 
 ### 메시징 및 대기열 처리 (SQS, SNS)
 카운터가 바리스타에게 주문 내역을 전달해야 하는데, 바리스타가 바빠서 바로 받을 수 없다면 어떻게 할까? 직접 전달하는 대신 주문을 따로 기록해두는 것, 즉 메시지와 버퍼를 도입하는 방법이 있다.

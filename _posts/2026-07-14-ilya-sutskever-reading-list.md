@@ -2,7 +2,7 @@
 title: '일리야 수츠케버가 존 카맥에게 건넨 딥러닝 읽기 목록'
 date: 2026-07-14 14:09:48 +0900
 categories: [학습, 아티클]
-tags: [deep-learning, papers, reading-list, transformer, ai, machine-learning]
+tags: [deep-learning, papers, reading-list, transformer, ai, 머신러닝]
 description: '일리야 수츠케버(Ilya Sutskever)가 존 카맥(John Carmack)에게 건넨 것으로 알려진 딥러닝 읽기 목록을 정리한 사이트 30papers.com의 목록. CNN 기초부터 트랜스포머, 스케일링 법칙, 복잡도 이론까지 딥러닝의 핵심 흐름을 관통하는 논문·강의·에세이 모음이다.'
 ---
 일리야 수츠케버(Ilya Sutskever)가 존 카맥(John Carmack)에게 건넨 것으로 알려진 딥러닝 읽기 목록을 정리한 사이트 30papers.com의 목록. CNN 기초부터 트랜스포머, 스케일링 법칙, 복잡도 이론까지 딥러닝의 핵심 흐름을 관통하는 논문·강의·에세이 모음이다.

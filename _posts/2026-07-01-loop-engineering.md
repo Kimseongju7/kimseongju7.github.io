@@ -2,7 +2,7 @@
 title: 'Loop Engineering'
 date: 2026-07-01 01:02:00 +0900
 categories: [학습, 용어]
-tags: [ai, ai-agent, llm, claude-code, loop-engineering, 자동화]
+tags: [ai, ai-agent, llm, claude-code, loop-engineering, automation]
 description: 'AI에게 직접 명령하는 대신, AI가 스스로 반복 실행하도록 만드는 시스템(루프)을 설계하는 방법론을 정리한다'
 ---
 ## 한 줄 정의

@@ -2,7 +2,7 @@
 title: 'prompt-master — 어떤 AI 도구용 프롬프트든 정확하게 써주는 Claude 스킬'
 date: 2026-07-14 14:24:45 +0900
 categories: [개발, 도구]
-tags: [claude, skill, prompt-engineering, llm, ai, claude-code]
+tags: [claude, skills, prompt-engineering, llm, ai, claude-code]
 description: 'nidhinjs/prompt-master는 어떤 AI 도구를 쓰든 그 도구에 맞는 정확한 프롬프트를 대신 써주는 Claude 스킬로, 토큰·크레딧 낭비 없이 첫 시도에 받았어야 할 답을 얻게 해준다.'
 ---
 nidhinjs/prompt-master는 어떤 AI 도구를 쓰든 그 도구에 맞는 정확한 프롬프트를 대신 써주는 Claude 스킬이다. 토큰·크레딧 낭비 없이, 컨텍스트와 메모리를 온전히 유지해, 첫 시도에 받았어야 할 답을 재프롬프트로 더듬어 찾는 일을 없애는 것이 목표다. Claude, ChatGPT, Gemini, o1/o3, MiniMax, Cursor, Claude Code, GitHub Copilot, Windsurf, Bolt, v0, Lovable, Devin, Perplexity, Midjourney, DALL-E, Stable Diffusion, ComfyUI, Sora, Runway, ElevenLabs, Zapier, Make 등 사실상 모든 AI 도구와 함께 쓸 수 있다.

@@ -2,7 +2,7 @@
 title: 'Archify — 채팅으로 아키텍처 다이어그램을 그려주는 에이전트 스킬 (다크/라이트 토글 + PNG/SVG 내보내기)'
 date: 2026-07-14 14:25:41 +0900
 categories: [개발, 도구]
-tags: [skill, diagram, architecture, claude-code, codex, svg, ai-agent]
+tags: [skills, diagram, architecture, claude-code, codex, svg, ai-agent]
 description: '채팅으로 시스템·프로세스를 설명하면 다크/라이트 토글과 PNG/SVG 내보내기가 되는 아키텍처 다이어그램을 만들어주는 에이전트 스킬 Archify 정리.'
 ---
 Archify(tt-a1i/archify)는 Claude, Codex CLI, opencode용 에이전트 스킬로, 시스템이나 프로세스를 평이한 영어로 설명하면 다듬어진 자기완결형(self-contained) HTML 다이어그램 파일로 만들어 준다. 브라우저에서 열어 다크/라이트 테마를 토글하고, 클립보드로 복사하거나 최대 4배 해상도의 PNG/JPEG/WebP/SVG로 내보낼 수 있다.

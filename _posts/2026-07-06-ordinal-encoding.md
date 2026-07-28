@@ -23,8 +23,8 @@ description: '서수 인코딩(ordinal encoding)은 범주 사이에 순서(등�
 from sklearn.preprocessing import OrdinalEncoder
 
 # 순서를 명시적으로 지정 — 지정하지 않으면 알파벳/등장 순으로 임의 매핑되므로 주의
-encoder = OrdinalEncoder(categories=[["고졸", "대졸", "대학원졸"]])
-df["학력_인코딩"] = encoder.fit_transform(df[["학력"]])
+encoder = OrdinalEncoder(categories="고졸", "대졸", "대학원졸")
+df["학력_인코딩"] = encoder.fit_transform(df"학력")
 # 고졸 → 0, 대졸 → 1, 대학원졸 → 2
 ```
 

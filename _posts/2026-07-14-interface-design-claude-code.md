@@ -2,7 +2,7 @@
 title: 'interface-design — Claude Code용 디자인 엔지니어링 스킬 (일관된 UI를 위한 크래프트·메모리·강제)'
 date: 2026-07-14 14:24:09 +0900
 categories: [개발, 도구]
-tags: [claude-code, codex, skill, design-system, ui, design-engineering]
+tags: [claude-code, codex, skills, design-system, ui, design-engineering]
 description: 'Dammyjay93/interface-design는 코딩 에이전트로 UI를 만들 때 세션마다 흐트러지는 디자인 결정을 .interface-design/system.md에 저장해 두고 다시 불러와, 세션을 넘나들며 일관된 인터페이스를 유지하게 해주는 에이전트 스킬이다.'
 ---
 Dammyjay93/interface-design는 코딩 에이전트로 UI를 만들 때 세션마다 흐트러지는 디자인 결정(간격, 색, 깊이 전략, 표면 엘리베이션)을 `.interface-design/system.md`에 저장해 두고 다시 불러와, 세션을 넘나들며 일관된 인터페이스를 유지하게 해주는 에이전트 스킬이다. 대시보드·앱·툴·관리자 패널 같은 인터페이스 디자인용이며, 마케팅 사이트용은 아니다.
