@@ -2,7 +2,7 @@
 title: "alirezarezvani/claude-skills — 13개 코딩 에이전트용 345+ 스킬·플러그인 라이브러리"
 date: 2026-07-14 14:14:13 +0900
 categories: [개발, 도구]
-tags: [claude-code, skills, plugins, ai-agent, codex, gemini-cli, cursor, open-source]
+tags: [claude-code, skills, plugin, ai-agent, codex, gemini-cli, cursor, open-source]
 slug: alirezarezvani-claude-skills
 publish: true
 ---

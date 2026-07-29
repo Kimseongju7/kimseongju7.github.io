@@ -1,7 +1,7 @@
 ---
 title: Developing Generative AI Applications on AWS
 date: 2026-07-10
-tags: [aws, 생성형ai, bedrock, swm, rag, 프롬프트엔지니어링, ai-agent]
+tags: [aws, 생성형ai, bedrock, swm, rag, prompt-engineering, ai-agent]
 categories: [학습, AWS]
 publish: false
 ---

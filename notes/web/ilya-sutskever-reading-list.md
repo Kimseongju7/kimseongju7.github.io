@@ -2,7 +2,7 @@
 title: "일리야 수츠케버가 존 카맥에게 건넨 딥러닝 읽기 목록"
 date: 2026-07-14 14:09:48 +0900
 categories: [학습, 아티클]
-tags: [deep-learning, papers, reading-list, transformer, ai, machine-learning]
+tags: [deep-learning, papers, reading-list, transformer, ai, 머신러닝]
 slug: ilya-sutskever-reading-list
 publish: true
 ---

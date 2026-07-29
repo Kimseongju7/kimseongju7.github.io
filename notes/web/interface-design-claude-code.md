@@ -2,7 +2,7 @@
 title: "interface-design — Claude Code용 디자인 엔지니어링 스킬 (일관된 UI를 위한 크래프트·메모리·강제)"
 date: 2026-07-14 14:24:09 +0900
 categories: [개발, 도구]
-tags: [claude-code, codex, skill, design-system, ui, design-engineering]
+tags: [claude-code, codex, skills, design-system, ui, design-engineering]
 slug: interface-design-claude-code
 publish: true
 ---

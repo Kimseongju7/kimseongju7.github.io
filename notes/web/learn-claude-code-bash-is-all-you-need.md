@@ -2,7 +2,7 @@
 title: "shareAI-lab/learn-claude-code — Bash만 있으면 된다: 0부터 만드는 나노 Claude Code 에이전트 하니스"
 date: 2026-07-14 14:03:19 +0900
 categories: [학습, 아티클]
-tags: [ai-agent, harness, claude-code, llm, tutorial, mcp, subagent, open-source]
+tags: [ai-agent, harness, claude-code, llm, tutorial, mcp, subagents, open-source]
 slug: learn-claude-code-bash-is-all-you-need
 publish: true
 ---

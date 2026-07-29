@@ -2,7 +2,7 @@
 title: "prompt-master — 어떤 AI 도구용 프롬프트든 정확하게 써주는 Claude 스킬"
 date: 2026-07-14 14:24:45 +0900
 categories: [개발, 도구]
-tags: [claude, skill, prompt-engineering, llm, ai, claude-code]
+tags: [claude, skills, prompt-engineering, llm, ai, claude-code]
 slug: prompt-master-skill
 publish: true
 ---

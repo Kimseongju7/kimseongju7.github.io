@@ -2,7 +2,7 @@
 title: "Archify — 채팅으로 아키텍처 다이어그램을 그려주는 에이전트 스킬 (다크/라이트 토글 + PNG/SVG 내보내기)"
 date: 2026-07-14 14:25:41 +0900
 categories: [개발, 도구]
-tags: [skill, diagram, architecture, claude-code, codex, svg, ai-agent]
+tags: [skills, diagram, architecture, claude-code, codex, svg, ai-agent]
 slug: archify-diagram-skill
 publish: true
 ---

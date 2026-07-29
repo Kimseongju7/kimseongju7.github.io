@@ -2,7 +2,7 @@
 title: "Codex 공인 최강 6개 Skill 정리 (Kyrie의 X 스레드)"
 date: 2026-07-14 14:36:54 +0900
 categories: [개발, 도구]
-tags: [codex, skills, ai-agent, superpowers, claude-mem, plugins, productivity]
+tags: [codex, skills, ai-agent, superpowers, claude-mem, plugin, productivity]
 slug: codex-top-6-skills
 publish: true
 ---
