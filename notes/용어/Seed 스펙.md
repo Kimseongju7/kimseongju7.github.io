@@ -1,0 +1,49 @@
+---
+title: Seed 스펙
+date: 2026-07-27 11:15:00 +0900
+categories: [학습, 용어]
+tags: [ouroboros, spec-first, yaml, 요구사항, ai-agent]
+publish: true
+---
+## 한 줄 정의
+[[소크라테스 인터뷰]]가 자동 생성하는 **불변(immutable) YAML 명세** — "무엇을 만들지"에 대한 유일한 진실 소스.
+
+## 자세히
+Seed는 씨앗이다. 여기서 실행·검증·진화가 전부 자라 나온다. [[우로보로스 사용법|Ouroboros]]에서 Seed 파일 하나에는 프로젝트 설명, **AC 트리**(Acceptance Criteria 계층 분해), 제약 조건, 아키텍처 결정이 들어간다. 저장 위치는 `~/.ouroboros/seeds/seed_<id>.yaml`.
+
+가장 중요한 성질은 **불변**이라는 것이다. 실행 도중 Seed가 바뀌면 "원래 뭘 만들려 했는지"의 기준점이 사라지고, 그 순간 드리프트 측정도 검증도 의미를 잃는다. 스펙을 고쳐야 할 상황이면 Seed를 수정하는 게 아니라 `evolve`로 **새 세대의 Seed를 파생**시킨다. 세대 간 인과 사슬은 Lineage(계보) ID로 관리되고, 그래서 `evolve --rewind <lineage_id> <generation>` 으로 이전 세대로 되감을 수 있다.
+
+[[AC 트리]]는 진행률의 단위이기도 하다. 각 AC는 `pending` → `in_progress` → `passed` / `failed` 상태를 갖고, 실행기는 AC를 태스크로 분해해 처리한다. 평가 단계에서 "AC 준수 여부"가 곧 채점 기준이 되므로, AC가 모호하면 검증도 모호해진다 — 결국 [[결정화]] 품질이 그대로 Seed 품질이고, Seed 품질이 그대로 결과 품질이다. `auto` 워크플로가 **A등급 Seed 게이트를 통과해야만** 실행을 시작하는 것도 같은 이유다.
+
+Seed는 원칙적으로 손으로 쓰지 않는다. 인터뷰가 만든다. 수동 작성은 고급 워크플로에 해당한다(`docs/guides/seed-authoring.md`).
+
+## 예시
+```yaml
+# ~/.ouroboros/seeds/seed_abc123.yaml (구조 예시)
+project:
+  description: "단일 사용자용 로컬 할 일 관리 CLI"
+acceptance_criteria:
+  - id: AC-1
+    text: "todo add <text> 로 항목 추가"
+    status: passed
+    children:
+      - id: AC-1.1
+        text: "빈 문자열 입력 시 에러 메시지 출력"
+        status: in_progress
+  - id: AC-2
+    text: "todo done <id> 로 완료 표시(보관)"
+    status: pending
+constraints:
+  - "외부 DB 의존성 없음"
+  - "Python 3.12+"
+architecture_decisions:
+  - "저장소는 ~/.todo.json 단일 파일"
+```
+
+## 관련
+- [[결정화]] — Seed를 만들어내는 과정
+- [[소크라테스 인터뷰]] — Seed의 입력을 캐내는 단계
+- [[PAL 라우팅]] — Seed의 AC를 실행할 때 모델 등급을 정하는 규칙
+- [[우로보로스 사용법]] — `/ouroboros:run <seed 경로>` 등 실제 사용법
+- [[ouroboros-agent-os|Q00/ouroboros — 프롬프트를 멈추고 명세를 시작하는 Agent OS]] — Seed·Ledger·Runtime 구조 설명
+- [[결정 기록]] — 아키텍처 결정을 기록으로 남긴다는 점에서 Seed의 `architecture_decisions`와 같은 발상
