@@ -78,6 +78,7 @@ V4에서 처음 나왔던 웹 번들이 V6에서 개선되어 돌아왔다. 웹 
 - [[ouroboros-agent-os]] — 스펙 우선 에이전트 개발 프레임워크(BMad와 유사한 워크플로 주도)
 - [[ouroboros-readme-ko]] — Ouroboros Agent OS 한국어 소개
 - [[harness-engineering-codex]] — 에이전트 우선 개발에서 환경·워크플로를 설계하는 사례
+- [[명세 주도 개발|명세 주도 개발(SDD)]] — BMad가 속한 방법론 전체의 지도(워크플로·도구 지형·실패 모드)
 
 > 원문: [bmad-code-org/BMAD-METHOD: Breakthrough Method for Agile Ai Driven Development](https://github.com/bmad-code-org/bmad-method)
 > 원본 클립: [[2026-07-14-bmad-code-orgBMAD-METHOD Breakthrough Method for Agile Ai Driven Development]]
