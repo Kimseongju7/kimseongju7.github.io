@@ -1,6 +1,6 @@
 ---
 title: '예금보험공사 채용 정리'
-date: 2026-07-28 09:00:00 +0900
+date: 2026-07-28 +0900
 categories: [기록, 커리어]
 tags: [취업, 공기업, 예금보험공사, 채용]
 description: '예금보험공사 채용을 지원 자격부터 서류·필기·면접 전형과 동점자 처리 기준까지 정리한 노트. 2025년 기준으로 디지털 분야 8명을 채용했다.'
@@ -36,8 +36,8 @@ description: '예금보험공사 채용을 지원 자격부터 서류·필기·�
 - 분량 미달 (1개 항목이라도 허용 글자 수의 50% 미만으로 작성한 경우)
 - 무의미한 동일 어구 반복
 
-![Pasted image 20260728160848](/assets/img/posts/kdic-recruitment/Pasted%20image%2020260728160848.png)
-![Pasted image 20260728160800](/assets/img/posts/kdic-recruitment/Pasted%20image%2020260728160800.png)
+![Pasted image 20260728160848.png](/assets/img/posts/kdic-recruitment/Pasted image 20260728160848.png)
+![Pasted image 20260728160800.png](/assets/img/posts/kdic-recruitment/Pasted image 20260728160800.png)
 
 ---
 
@@ -77,7 +77,7 @@ description: '예금보험공사 채용을 지원 자격부터 서류·필기·�
 
 ## 동점자 처리
 
-![Pasted image 20260728162024](/assets/img/posts/kdic-recruitment/Pasted%20image%2020260728162024.png)
+![Pasted image 20260728162024.png](/assets/img/posts/kdic-recruitment/Pasted image 20260728162024.png)
 
 ---
 
@@ -90,5 +90,5 @@ description: '예금보험공사 채용을 지원 자격부터 서류·필기·�
 ## 관련 노트
 
 - 공기업 후보 비교 — 이 기관을 포함한 40곳을 3단계 기준으로 비교한 원장
-- [IBK 기업은행](/posts/ibk-recruitment/) — 같은 금융 공기업 채용 정리
+- IBK 기업은행 — 같은 금융 공기업 채용 정리
 - [한국주택금융공사](/posts/hf-recruitment/) — 같은 금융 공기업 채용 정리

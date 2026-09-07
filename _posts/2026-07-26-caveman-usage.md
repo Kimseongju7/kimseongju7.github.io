@@ -1,6 +1,6 @@
 ---
 title: 'Caveman 사용법'
-date: 2026-07-26 09:00:00 +0900
+date: 2026-07-26 +0900
 categories: [기록, 도구]
 tags: [caveman, claude-code, plugin, tokens, hooks]
 description: 'Caveman 플러그인을 실제로 쓰면서 정리한 설정·운영 요령. 무엇인지에 대한 설명은 정리본 노트에 있고, 여기는 내 환경에서 어떻게 켜고 끄는가만 다룬다.'

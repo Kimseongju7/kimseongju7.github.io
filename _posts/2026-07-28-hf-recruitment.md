@@ -1,6 +1,6 @@
 ---
 title: '한국주택금융공사 채용 정리'
-date: 2026-07-28 09:00:00 +0900
+date: 2026-07-28 +0900
 categories: [기록, 커리어]
 tags: [취업, 공기업, 한국주택금융공사, 채용, it]
 description: '한국주택금융공사(HF) IT 직렬 채용을 모집 개요부터 서류·필기·면접 전형, 가점 우대사항, 전형별 평가기준, IT 직무설명자료까지 정리한 노트. 배포 자료(입사지원 가이드북·전형별 평가기준·합격자 선정 방식·직무설명자료)를…'
@@ -207,10 +207,10 @@ PT 면접, 심층 면접, 집단과제 면접으로 구성된다. IT는 **2배�
 
 - https://cafe.naver.com/studentstudyhard/2666230
 
-[한국주택금융공사_입사지원 가이드북_0812.pdf](/assets/img/posts/hf-recruitment/한국주택금융공사_입사지원%20가이드북_0812.pdf)
-[한국주택금융공사_전형별 평가기준_0812.pdf](/assets/img/posts/hf-recruitment/한국주택금융공사_전형별%20평가기준_0812.pdf)
-[한국주택금융공사_전형별 합격자 선정 방식_0812.pdf](/assets/img/posts/hf-recruitment/한국주택금융공사_전형별%20합격자%20선정%20방식_0812.pdf)
-[한국주택금융공사_직무설명자료_0812 1.pdf](/assets/img/posts/hf-recruitment/한국주택금융공사_직무설명자료_0812%201.pdf)
+![한국주택금융공사_입사지원 가이드북_0812.pdf](/assets/img/posts/hf-recruitment/한국주택금융공사_입사지원 가이드북_0812.pdf)
+![한국주택금융공사_전형별 평가기준_0812.pdf](/assets/img/posts/hf-recruitment/한국주택금융공사_전형별 평가기준_0812.pdf)
+![한국주택금융공사_전형별 합격자 선정 방식_0812.pdf](/assets/img/posts/hf-recruitment/한국주택금융공사_전형별 합격자 선정 방식_0812.pdf)
+![한국주택금융공사_직무설명자료_0812 1.pdf](/assets/img/posts/hf-recruitment/한국주택금융공사_직무설명자료_0812 1.pdf)
 
 ---
 
@@ -218,4 +218,4 @@ PT 면접, 심층 면접, 집단과제 면접으로 구성된다. IT는 **2배�
 
 - 공기업 후보 비교 — 이 기관을 포함한 40곳을 3단계 기준으로 비교한 원장
 - [예금보험공사](/posts/kdic-recruitment/) — 같은 금융 공기업 채용 정리
-- [IBK 기업은행](/posts/ibk-recruitment/) — 같은 금융 공기업 채용 정리
+- IBK 기업은행 — 같은 금융 공기업 채용 정리
